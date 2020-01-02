@@ -1,0 +1,52 @@
+Activation test MEA: standard test protocol (repeat)
+MEA STRUCTURE:
+Anode: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C28)
+Catalyst loading: 0.38 mg/cm2
+Membrane: Nafion 112
+Cathode: : CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C28)
+Catalyst loading: 0.38 mg/cm2
+
+OPERATION CONDITION:
+Ta/ Tc/ Tcell : 60 /50/ 55OC, P= 5 psig, Flow rate H2/O2: 200/200
+
+ACTIVATION PROCEDURE:
+1) 10 min OCV
+2) 60 min at constant voltage 0.6V
+3) cycling potential between 0.7 - 14min and 0.5V - 14 min for 12 times
+4) constant current 0.2Acm-2 for 12hr
+
+OPERATION CONDITION AFTER ACTIVATION-
+RH 30%: Ta/ Tc/ Tcell: 80/49/75
+RH 50%: Ta/ Tc/ Tcell: 80/59/75
+RH 100%: Ta/ Tc/ Tcell: 80/75/75
+P= 5psig: flow H2/O2 or air= 200/200
+P= 15psig: flow H2/O2 or air= 300/300
+P= 25psig: flow H2/O2 or air= 500/500
+
+
+Data Description:
+Column 1: I (mA/cm²) (Current Density)
+Column 2: E_Stack (V) (Voltage)
+Column 3: Power (mW/cm²)
+Column 4: Activation Set 
+
+	    OCV	MPD	R(mΩ)
+st 1	976	771	79
+st 2	983	887	76
+st 3	981	879	77
+st 4	991	542	68
+st 5	995	945	77
+st 6	995	952	78
+st 7	994	943	78
+st 8	997	930	78
+st 9	992	990	81
+st 10	996	963	77
+st 11	997	962	77
+st 12	994	954	77
+st 13	993	954	77
+st 14	992	904	93
+st 15	998	1022 76
+st 16	999	1025 75
+st 17	999	1019 74
+st 18	999	1010 75
+st 19	998	1011 75
