@@ -1,0 +1,29 @@
+Anode: 
+Carbon paper ballard + Platin-Carbon 20% + Nafion Solution (27% weight) + 80ml isopropyl alcohol + 20ml double distilled water 
+Loading of Platin= 0.39 mg/cm2
+
+Cathode1: 
+Carbon paper ballard + Platin-Carbon 20% + Nafion Solution (25% weight) + 80ml isopropyl alcohol + 20ml double distilled water 
+Loading of Platin= 0.39 mg/cm2
+
+Cathode2:
+Carbon paper ballard + Platin-Carbon 20% + Nafion Solution (20% weight) + 80ml isopropyl alcohol + 20ml double distilled water 
+Loading of Platin= 0.39 mg/cm2
+
+Test conditions: 
+Cell temperature= 75 C 
+Anode temperature= 80 C
+Cathode temperature= 48-59-70-75 C
+
+Activation conditions:
+Relative Pressure (Begin)×20
+Constant V at 0.2 V (10 min)
+Constant V at 0.7 V (1 min)
+Relative Pressure (End)×20
+Constant V at 0.6 V (60 min)
+
+Relative Pressure (Begin)×5
+Constant V at 0.5 V (20 min)
+Constant V at 0.5 V (20 min)
+Relative Pressure (End)×5
+Constant C at 250 mA/cm2 (60 min)

@@ -4,21 +4,21 @@
 
 ### STRUCTURE
 - Anode: 
-	- carbon paper ballard
+	- Carbon paper ballard
 	- Platin-Carbon 20% 
 	- Nafion Solution (27% weight)
 	- 80ml isopropyl alcohol
 	- 20ml double distilled water 
 	- Loading of Platin= 0.39 mg/cm2
 - Cathode1: 
-	- carbon paper ballard
+	- Carbon paper ballard
 	- Platin-Carbon 20%
 	- Nafion Solution (25% weight)
 	- 80ml isopropyl alcohol
 	- 20ml double distilled water
 	- Loading of Platin= 0.39 mg/cm2
 - Cathode2:
-	- carbon paper ballard
+	- Carbon paper ballard
 	- Platin-Carbon 20%
 	- Nafion Solution (20% weight)
 	- 80ml isopropyl alcohol
@@ -26,9 +26,9 @@
 	- Loading of Platin= 0.39 mg/cm2
 
 ### Test conditions
-- cell temperature= 75 degree centigrade 
-- Anode temperature= 80 degree centigrade
-- Cathode temperature= 48-59-70-75 degree centigrade
+- Cell temperature= 75 C
+- Anode temperature= 80 C
+- Cathode temperature= 48-59-70-75 C
 
 ### Activation conditions:
 1. Relative Pressure (Begin)×20
@@ -44,10 +44,10 @@
 
 ## Files
 
-### 1- Membrane Compression 5%, 12%, various Nafion percent, various RHC			
+### 1- Membrane compression 5% & 12%, various Nafion percent, various RHC			
 
 ```
-Column 1 is I (mA/cm²) (Current Density)
+Column 1 is I (mA/cm²) (Current density)
 
 Column 2 is E_Stack (V) (Voltage)
 
@@ -55,7 +55,7 @@ Column 3 is Power (mW/cm²)
 
 Column 4 is Pressure (psi) 
 
-Column 5 is Nafion Percent
+Column 5 is Nafion percent
 
 Column 6 is Relative humidity (RH%)
 
@@ -67,14 +67,14 @@ Column 7 is Membrane compression (%)
 
 1. [Data File](1.csv)		
 
-2. [Name File](1.name)
+2. [Names File](1.names)
 
 
-### 2- Various Membrane Comperssion, Various RHC
+### 2- Various membrane compression, various RHC
 
 
 ```
-Column 1 is I (mA/cm²) (Current Density)
+Column 1 is I (mA/cm²) (Current density)
 
 Column 2 is E_Stack (V) (Voltage)
 
@@ -82,7 +82,7 @@ Column 3 is Power (mW/cm²)
 
 Column 4 is Pressure (psi) 
 
-Column 5 is Nafion Percent
+Column 5 is Nafion percent
 
 Column 6 is Relative humidity (RH%) 
 
@@ -91,4 +91,4 @@ Column 6 is Relative humidity (RH%)
 
 1. [Data File](2.csv)		
 
-2. [Name File](2.name)
+2. [Names File](2.names)
