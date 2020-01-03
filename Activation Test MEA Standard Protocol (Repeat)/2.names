@@ -25,7 +25,7 @@ P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
 
 
-DATA DECRIPTION:
+DATA DESCRIPTION:
 Column 1: Zreal
 Column 2: Zimaginary
 Column 3: Voltage (V)
