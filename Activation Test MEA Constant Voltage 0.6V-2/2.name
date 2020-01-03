@@ -1,4 +1,5 @@
-Activation test MEA: Constant Voltage 0.6V 
+Activation test MEA: constant voltage 0.6V 
+
 MEA STRUCTURE:
 Anode: C28: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C28)
 Catalyst loading: 0.38 mg/cm2
@@ -7,15 +8,15 @@ Cathode: C28: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C28)
 Catalyst loading: 0.38 mg/cm2
 
 TREATMENT PROCEDURE:
-Electrodes were Ultra sonicated in 10% Iso propyle solution for 60 min at 60oC
+Electrodes were ultrasonicated in 10% Iso propyle solution for 60 min at 60 C
 
 OPERATION CONDITION:
-Ta/ Tc/ Tcell : 60 /50/ 55OC, P= 5 psig, Flow rate H2/O2: 200/200
+Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
 
 ACTIVATION PROCEDURE:
-constant voltage 0.6V
+Constant voltage 0.6V
 
-OPERATION CONDITION AFTER ACTIVATION-
+OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75
 RH 50%: Ta/ Tc/ Tcell: 80/59/75
 RH 100%: Ta/ Tc/ Tcell: 80/75/75
@@ -24,7 +25,7 @@ P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
 
 
-Data Description:
+DATA DESCRIPTION:
 Column 1: Zreal
 Column 2: Zimaginary
 Column 3: Voltage (V)
