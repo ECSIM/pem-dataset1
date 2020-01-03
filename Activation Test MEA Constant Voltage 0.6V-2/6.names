@@ -1,5 +1,6 @@
-Activation test MEA: constant voltage 0.6V
- 
+Activation Test MEA : Constant Voltage 0.6V (2)
+Polarization : End of Each Activation Set
+
 MEA STRUCTURE:
 Anode: C28: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C28)
 Catalyst loading: 0.38 mg/cm2
