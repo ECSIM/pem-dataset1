@@ -1,4 +1,5 @@
-Activation test MEA: Constant Voltage 0.6V 
+Activation test MEA: constant voltage 0.6V 
+
 MEA STRUCTURE:
 Anode: C39: CP (TGP-0120) + Pt/C 20% + 30% Nafion 
 Catalyst loading: 0.42 mg/cm2
@@ -7,7 +8,7 @@ Cathode: A16: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2
 Catalyst loading: 0.396 mg/cm2
 
 OPERATION CONDITION:
-Ta/ Tc/ Tcell : 60 /50/ 55OC, P= 5 psig, Flow rate H2/O2: 200/200
+Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
 
 ACTIVATION PROCEDURE:
 Constant voltage 0.6V

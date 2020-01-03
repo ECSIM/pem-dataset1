@@ -1,4 +1,5 @@
-Activation test MEA: Constant Voltage 0.6V 
+Activation test MEA: constant voltage 0.6V 
+
 MEA STRUCTURE:
 Anode: C39: CP (TGP-0120) + Pt/C 20% + 30% Nafion 
 Catalyst loading: 0.42 mg/cm2
@@ -7,12 +8,12 @@ Cathode: A16: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2
 Catalyst loading: 0.396 mg/cm2
 
 OPERATION CONDITION:
-Ta/ Tc/ Tcell : 60 /50/ 55OC, P= 5 psig, Flow rate H2/O2: 200/200
+Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
 
 ACTIVATION PROCEDURE:
 Constant voltage 0.6V
 
-OPERATION CONDITION AFTER ACTIVATION-
+OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75
 RH 50%: Ta/ Tc/ Tcell: 80/59/75
 RH 100%: Ta/ Tc/ Tcell: 80/75/75
@@ -20,23 +21,26 @@ P= 5psig: flow H2/O2 or air= 200/200
 P= 15psig: flow H2/O2 or air= 300/300
 
 
-Data Description:
-Column 1: I (mA/cm²) (Current Density)
+DATA DESCRIPTION:
+Column 1: I (mA/cm²) (Current density)
 Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
 Column 4: Pressure (psi)
 Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in humidity condition 30, 50, 100% a) 5, b) 15 and c) 25 psig 
+
 5psi:
 RH	OCV	 MPD	R(mΩ)
 30	970	 1128	61
 50	996  1225	57
 100	1001 1358   58
+
 15psi:
 RH	OCV	MPD	    R(mΩ)
 30	990	1388	68
 50	997	1505	60
 100		542	    50
+
 25psi:
 RH	OCV	 MPD    R(mΩ)
 30	1025 1522	64
