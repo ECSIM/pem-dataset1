@@ -1,4 +1,4 @@
-# Activation test MEA : Cycling Potential Between 0.2V and 0.7V
+# Activation test MEA: cycling potential between 0.2V and 0.7V
 
 ## Conditions
 
@@ -15,7 +15,7 @@
 ### ACTIVATION PROCEDURE
 1. OCV: 10 min
 2. 0.7V: 1 min; 0.2V: 10 min for five time
-3. repeat cycle 1, 2 for three time
+3. Repeat cycle 1, 2 for three time
 
 ### OPERATION CONDITION AFTER ACTIVATION
 - RH 30%: Ta/ Tc/ Tcell: 80/49/75
@@ -94,11 +94,11 @@ Column 5:Voltage (V)
 ### 4- Polarization at end of activation procedure
 
 ```
-Column 1:Current density (mA/Cm2)
+Column 1:Current density (mA/cm2)
 
 Column 2:Cell voltage (V)
 
-Column 3:Power density (mW/Cm2)
+Column 3:Power density (mW/cm2)
 
 Column 4:Pressure (psi)
 
@@ -115,11 +115,11 @@ Column 5:Relative humidity percent (RH%)
 ### 5- Polarization 0.7 volt at end of activation procedure
 
 ```
-Column 1:Current density (mA/Cm2)
+Column 1:Current density (mA/cm2)
 
 Column 2:Cell voltage (V)
 
-Column 3:Power density (mW/Cm2)
+Column 3:Power density (mW/cm2)
 
 Column 4:Pressure (psi)
 
@@ -134,11 +134,11 @@ Column 5:Relative humidity percent (RH%)
 ### 6- Polarization after activation procedure
 
 ```
-Column 1:Current density (mA/Cm2)
+Column 1:Current density (mA/cm2)
 
 Column 2:Cell voltage (V)
 
-Column 3:Power density (mW/Cm2)
+Column 3:Power density (mW/cm2)
 
 Column 4:Activation set 
 

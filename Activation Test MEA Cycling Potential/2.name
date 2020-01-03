@@ -1,4 +1,5 @@
-Activation test MEA: Cycling Potential Between o.2 and 0.7V
+Activation test MEA: cycling potential between 0.2V and 0.7V
+
 MEA STRUCTURE:
 Anode: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C28)
 Catalyst loading: 0.38 mg/cm2
@@ -7,14 +8,14 @@ Cathode: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C28)
 Catalyst loading: 0.38 mg/cm2
 
 OPERATION CONDITION:
-Ta/ Tc/ Tcell : 60 /50/ 55OC, P= 5 psig, Flow rate H2/O2: 200/200
+Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
 
 ACTIVATION PROCEDURE:
 1) OCV: 10 min
 2) 0.7V: 1 min; 0.2V: 10 min for five time
-3) repeat cycle 1, 2 for three time
+3) Repeat cycle 1, 2 for three time
 
-OPERATION CONDITION AFTER ACTIVATION-
+OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75
 RH 50%: Ta/ Tc/ Tcell: 80/59/75
 RH 100%: Ta/ Tc/ Tcell: 80/75/75
@@ -23,7 +24,7 @@ P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
 
 
-DATA DESCERIPTION:
+DATA DESCRIPTION:
 Column 1:Zreal
 Column 2:Zimaginary
 Column 3:Pressure (psi)
