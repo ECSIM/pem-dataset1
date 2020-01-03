@@ -15,8 +15,8 @@
 ### ACTIVATION PROCEDURE
 1. 10 min OCV
 2. 60 min at constant voltage 0.6V
-3. cycling potential between 0.7 - 14min and 0.5V - 14 min for 12 times
-4. constant current 0.2Acm-2 for 12hr
+3. Cycling potential between 0.7 - 14min and 0.5V - 14 min for 12 times
+4. Constant current 0.2Acm-2 for 12hr
 
 ### OPERATION CONDITION AFTER ACTIVATION
 - RH 30%: Ta/ Tc/ Tcell: 80/49/75
