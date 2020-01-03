@@ -1,4 +1,4 @@
-# Activation test MEA: cycling potential between 0.2V and 0.7V
+# Activation Test MEA: Cycling Potential Between 0.2V  - 0.7V
 
 ## Conditions
 
@@ -28,7 +28,7 @@
 
 ## Files
 
-### 1- Impedance at end of each activation set			
+### 1- Impedance : End of Each Activation Set			
 
 ```
 Column 1: Zreal
@@ -48,7 +48,7 @@ Column 4: Activation set
 2. [Names File](1.names)
 
 
-### 2- Impedance at various voltages (1)
+### 2- Impedance : Various Voltages (1)
 
 
 ```
@@ -70,7 +70,7 @@ Column 5:Voltage (V)
 2. [Names File](2.names)
 
 
-### 3- Impedance at various voltages (2)
+### 3- Impedance : Various Voltages (2)
 
 ```
 Column 1:Zreal
@@ -91,7 +91,7 @@ Column 5:Voltage (V)
 2. [Names File](3.names)
 
 
-### 4- Polarization at end of activation procedure
+### 4- Polarization : End of Activation Procedure
 
 ```
 Column 1:Current density (mA/cm2)
@@ -112,7 +112,7 @@ Column 5:Relative humidity percent (RH%)
 
 
 
-### 5- Polarization 0.7 volt at end of activation procedure
+### 5- Polarization : 0.7V - End of Activation Procedure
 
 ```
 Column 1:Current density (mA/cm2)
@@ -131,7 +131,7 @@ Column 5:Relative humidity percent (RH%)
 
 2. [Names File](5.names)
 
-### 6- Polarization after activation procedure
+### 6- Polarization : After Activation Procedure
 
 ```
 Column 1:Current density (mA/cm2)
