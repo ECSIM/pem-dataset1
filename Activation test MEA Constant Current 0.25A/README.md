@@ -1,4 +1,4 @@
-# Activation test MEA : Constant Current 0.25Acm-2 
+# Activation test MEA : constant current 0.25Acm-2 
 
 ## Conditions
 
@@ -10,12 +10,12 @@
 - Catalyst loading: 0.38 mg/cm2
 
 ### OPERATION CONDITION
-- Ta/ Tc/ Tcell : 60 /50/ 55OC, P= 5 psig, Flow rate H2/O2: 200/200
+- Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
 
 ### ACTIVATION PROCEDURE
 1. 10 min OCV
 2. 30 min at constant voltage 0.6V
-3. constant current 0.25Acm-2 (repeat for 17 time)
+3. Constant current 0.25Acm-2 (repeat for 17 time)
 
 ### OPERATION CONDITION AFTER ACTIVATION
 - RH 30%: Ta/ Tc/ Tcell: 80/49/75
@@ -94,7 +94,7 @@ Column 5: Relative humidity (RH%)
 ### 4- Polarization at end of activation procedure (1)
 
 ```
-Column 1: I (mA/cm²) (Current Density)
+Column 1: I (mA/cm²) (Current density)
 
 Column 2: E_Stack (V) (Voltage)
 
@@ -115,7 +115,7 @@ Column 5: Relative humidity (RH%)
 ### 5- Polarization at end of activation procedure (2)
 
 ```
-Column 1: I (mA/cm²) (Current Density)
+Column 1: I (mA/cm²) (Current density)
 
 Column 2: E_Stack (V) (Voltage)
 
@@ -133,13 +133,13 @@ Column 5: Relative humidity (RH%)
 ### 6- Polarization at end of each activation set
 
 ```
-Column 1: I (mA/cm²) (Current Density)
+Column 1: I (mA/cm²) (Current density)
 
 Column 2: E_Stack (V) (Voltage)
 
 Column 3: Power (mW/cm²)
 
-Column 4: Activation Set 
+Column 4: Activation set 
 
 ```
 
