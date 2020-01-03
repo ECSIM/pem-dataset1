@@ -44,7 +44,7 @@
 
 ## Files
 
-### 1- Membrane compression 5% & 12%, various Nafion percent, various RHC			
+### 1- Membrane Compression 5% & 12% : Various Nafion Percent, Various RHC			
 
 ```
 Column 1 is I (mA/cm²) (Current density)
@@ -70,7 +70,7 @@ Column 7 is Membrane compression (%)
 2. [Names File](1.names)
 
 
-### 2- Various membrane compression, various RHC
+### 2- Various Membrane Compression, Various RHC
 
 
 ```
