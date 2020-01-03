@@ -1,4 +1,5 @@
 Activation test MEA: standard test protocol 
+
 MEA STRUCTURE:
 Anode: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 (C29)
 Catalyst loading: 0.377 mg/cm2
@@ -15,7 +16,7 @@ ACTIVATION PROCEDURE:
 3) cycling potential between 0.7 - 14min and 0.5V - 14 min for 10 times
 4) constant current 0.2Acm-2 for 18hr
 
-OPERATION CONDITION AFTER ACTIVATION-
+OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75
 RH 50%: Ta/ Tc/ Tcell: 80/59/75
 RH 100%: Ta/ Tc/ Tcell: 80/75/75
@@ -30,16 +31,19 @@ Column 3: Power (mW/cm²)
 Column 4: Pressure (psi)
 Column 5: Relative humidity (RH%) 
 Polarization curves at the end of activation procedure in different cathode humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25 
+
 5psi:
 RH	OCV	MPD	 i at 0.5V	i at 0.3V	R(mΩ)
 30	980	465	 900	      1200	    62
 50	978	552	 1000	      1100	    50
 100	966	463	 750	      -         47
+
 15psi:
 RH	OCV	MPD	i at 0.5V	i at 0.3V	R(mΩ)
 30	993	937	1200	        1350	61
 50	986	690	1300	        1250	54
 100	969	318	500	            500	    67
+
 25psi:
 RH	OCV	MPD	i at 0.5V	i at 0.3V	R(mΩ)
 30	984	693	1350	         1500	61
