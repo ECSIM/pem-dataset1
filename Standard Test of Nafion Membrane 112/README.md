@@ -25,12 +25,12 @@
 	- 20ml double distilled water 
 	- Loading of Platin= 0.39 mg/cm2
 
-### Test conditions
+### TEST CONDITIONS
 - Cell temperature= 75 C
 - Anode temperature= 80 C
 - Cathode temperature= 48-59-70-75 C
 
-### Activation conditions:
+### ACTIVATION CONDITIONS
 1. Relative Pressure (Begin)×20
 2. Constant V at 0.2 V (10 min)
 3. Constant V at 0.7 V (1 min)
