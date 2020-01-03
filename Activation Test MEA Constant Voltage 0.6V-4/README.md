@@ -1,4 +1,4 @@
-# Activation test MEA : constant voltage 0.6V (4)
+# Activation Test MEA : Constant Voltage 0.6V (4)
 
 ## Conditions
 
@@ -25,7 +25,7 @@
 
 ## Files
 
-### 1- Impedance at end of each activation set			
+### 1- Impedance : End of Each Activation Set			
 
 ```
 Column 1: Zreal
@@ -45,7 +45,7 @@ Column 4: Activation set
 2. [Names File](1.names)
 
 
-### 2- Impedance at various voltages (1)
+### 2- Impedance : Various Voltages (1)
 
 
 ```
@@ -67,7 +67,7 @@ Column 5: Relative humidity (RH%)
 2. [Names File](2.names)
 
 
-### 3- Impedance at various voltages (2)
+### 3- Impedance : Various Voltages (2)
 
 ```
 Column 1: Zreal
@@ -88,7 +88,7 @@ Column 5: Relative humidity (RH%)
 2. [Names File](3.names)
 
 
-### 4- Polarization at end of activation procedure (1)
+### 4- Polarization : End of Activation Procedure (1)
 
 ```
 Column 1: I (mA/cm²) (Current density)
@@ -109,7 +109,7 @@ Column 5: Relative humidity (RH%)
 
 
 
-### 5- Polarization at end of activation procedure (2)
+### 5- Polarization : End of Activation Procedure (2)
 
 ```
 Column 1: I (mA/cm²) (Current density)
@@ -128,7 +128,7 @@ Column 5: Relative humidity (RH%)
 
 2. [Names File](5.names)
 
-### 6- Polarization at end of each activation set
+### 6- Polarization : End of Each Activation Set
 
 ```
 Column 1: I (mA/cm²) (Current density)
