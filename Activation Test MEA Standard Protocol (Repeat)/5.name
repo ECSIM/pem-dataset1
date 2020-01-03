@@ -16,7 +16,7 @@ ACTIVATION PROCEDURE:
 3) Cycling potential between 0.7 - 14min and 0.5V - 14 min for 12 times
 4) Constant current 0.2Acm-2 for 12hr
 
-OPERATION CONDITION AFTER ACTIVATION-
+OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75
 RH 50%: Ta/ Tc/ Tcell: 80/59/75
 RH 100%: Ta/ Tc/ Tcell: 80/75/75
@@ -26,7 +26,7 @@ P= 25psig: flow H2/O2 or air= 500/500
 
 
 DATA DECRIPTION:
-Column 1: I (mA/cm²) (Current Density)
+Column 1: I (mA/cm²) (Current density)
 Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
 Column 4: Pressure (psi)
