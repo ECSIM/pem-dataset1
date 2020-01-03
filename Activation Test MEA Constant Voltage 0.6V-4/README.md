@@ -42,7 +42,7 @@ Column 4: Activation set
 
 1. [Data File](1.csv)		
 
-2. [Name File](1.name)
+2. [Names File](1.names)
 
 
 ### 2- Impedance at various voltages (1)
@@ -64,7 +64,7 @@ Column 5: Relative humidity (RH%)
 
 1. [Data File](2.csv)		
 
-2. [Name File](2.name)
+2. [Names File](2.names)
 
 
 ### 3- Impedance at various voltages (2)
@@ -85,7 +85,7 @@ Column 5: Relative humidity (RH%)
 
 1. [Data File](3.csv)		
 
-2. [Name File](3.name)
+2. [Names File](3.names)
 
 
 ### 4- Polarization at end of activation procedure (1)
@@ -105,7 +105,7 @@ Column 5: Relative humidity (RH%)
 
 1. [Data File](4.csv)		
 
-2. [Name File](4.name)
+2. [Names File](4.names)
 
 
 
@@ -126,7 +126,7 @@ Column 5: Relative humidity (RH%)
 
 1. [Data File](5.csv)		
 
-2. [Name File](5.name)
+2. [Names File](5.names)
 
 ### 6- Polarization at end of each activation set
 
@@ -143,4 +143,4 @@ Column 4: Activation set
 
 1. [Data File](6.csv)		
 
-2. [Name File](6.name)
+2. [Names File](6.names)
