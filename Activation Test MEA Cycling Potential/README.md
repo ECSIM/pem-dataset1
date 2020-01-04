@@ -10,7 +10,7 @@
 - Catalyst loading: 0.38 mg/cm2
 
 ### OPERATION CONDITION
-- Ta/ Tc/ Tcell : 60 /50/ 55OC, P= 5 psig, Flow rate H2/O2: 200/200
+- Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
 
 ### ACTIVATION PROCEDURE
 1. OCV: 10 min
