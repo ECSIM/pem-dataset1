@@ -15,7 +15,7 @@ OPERATION CONDITION:
 Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
 
 ACTIVATION PROCEDURE:
-constant voltage 0.6V
+Constant voltage 0.6V
 
 OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75

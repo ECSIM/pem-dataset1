@@ -38,8 +38,6 @@ Column 2: Zimaginary
 Column 3: Voltage (V)
 
 Column 4: Activation set
-
-
 ```			
 	
 
@@ -61,8 +59,6 @@ Column 3:Pressure (psi)
 Column 4:Relative humidity percent (RH%)
 
 Column 5:Voltage (V)
-
-
 ```
 
 1. [Data File](2.csv)		
@@ -82,8 +78,6 @@ Column 3:Pressure (psi)
 Column 4:Relative humidity percent (RH%)
 
 Column 5:Voltage (V)
-
-
 ```
 
 1. [Data File](3.csv)		
@@ -103,7 +97,6 @@ Column 3:Power density (mW/cm2)
 Column 4:Pressure (psi)
 
 Column 5:Relative humidity percent (RH%)
-
 ```
 
 1. [Data File](4.csv)		
@@ -124,7 +117,6 @@ Column 3:Power density (mW/cm2)
 Column 4:Pressure (psi)
 
 Column 5:Relative humidity percent (RH%)
-
 ```
 
 1. [Data File](5.csv)		
@@ -141,7 +133,6 @@ Column 2:Cell voltage (V)
 Column 3:Power density (mW/cm2)
 
 Column 4:Activation set 
-
 ```
 
 1. [Data File](6.csv)		
