@@ -54,11 +54,11 @@ Column 1:Zreal
 
 Column 2:Zimaginary
 
-Column 3:Pressure (psi)
+Column 3:Voltage (V)
 
-Column 4:Relative humidity percent (RH%)
+Column 4:Pressure (psi)
 
-Column 5:Voltage (V)
+Column 5:Relative humidity percent (RH%)
 ```
 
 1. [Data File](2.csv)		
@@ -69,15 +69,15 @@ Column 5:Voltage (V)
 ### 3- Impedance : Various Voltages (2)
 
 ```
-Column 1:Zreal
+Column 1: Zreal
 
-Column 2:Zimaginary
+Column 2: Zimaginary
 
-Column 3:Pressure (psi)
+Column 3: Voltage (V)
 
-Column 4:Relative humidity percent (RH%)
+Column 4: Pressure (psi)
 
-Column 5:Voltage (V)
+Column 5: Relative humidity percent (RH%)
 ```
 
 1. [Data File](3.csv)		

@@ -28,7 +28,7 @@ P= 25psig: flow H2/O2 or air= 500/500
 DATA DESCRIPTION:
 Column 1:Zreal
 Column 2:Zimaginary
-Column 3:Pressure (psi)
-Column 4:Relative humidity percent (RH%)
-Column 5:Voltage (V)
+Column 3:Voltage (V)
+Column 4:Pressure (psi)
+Column 5:Relative humidity percent (RH%)
 Impedance curves various V at the end of activation procedure in humidity condition 30, 50, 100% a)5, b)15, c)25 psig
