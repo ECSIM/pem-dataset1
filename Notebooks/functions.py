@@ -112,7 +112,7 @@ def impedance_plot1(data, set_index):
         multi=True)
 
 
-def impedance_plot2(data, RH=30, P=5, V=None):
+def impedance_plot2(data, RH=None, P=None, V=None):
     """
     Impedance plot function 2.
 
