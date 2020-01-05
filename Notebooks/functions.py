@@ -77,11 +77,11 @@ def impedance_plot1(data,set_index):
     :type set_index: int
     :return: None
     """
-    act_data = data[data[:,3]==set_index]
-    data_03V = [act_data[act_data[:,2]==0.3][:,0],act_data[act_data[:,2]==0.3][:,1]]
-    data_05V = [act_data[act_data[:,2]==0.5][:,0],act_data[act_data[:,2]==0.5][:,1]]
-    data_07V = [act_data[act_data[:,2]==0.7][:,0],act_data[act_data[:,2]==0.7][:,1]]
-    data_08V = [act_data[act_data[:,2]==0.8][:,0],act_data[act_data[:,2]==0.8][:,1]]
+    filtered_data = data[data[:,3]==set_index]
+    data_03V = [filtered_data[filtered_data[:,2]==0.3][:,0],filtered_data[filtered_data[:,2]==0.3][:,1]]
+    data_05V = [filtered_data[filtered_data[:,2]==0.5][:,0],filtered_data[filtered_data[:,2]==0.5][:,1]]
+    data_07V = [filtered_data[filtered_data[:,2]==0.7][:,0],filtered_data[filtered_data[:,2]==0.7][:,1]]
+    data_08V = [filtered_data[filtered_data[:,2]==0.8][:,0],filtered_data[filtered_data[:,2]==0.8][:,1]]
 
     x_plot_data = [data_03V[0],data_05V[0],data_07V[0],data_08V[0]]
     y_plot_data = [data_03V[1],data_05V[1],data_07V[1],data_08V[1]]
@@ -108,29 +108,29 @@ def impedance_plot2(data,RH=30,P=5,V=None):
     :type V: int
     :return: None
     """
-    act_data = data
+    filtered_data = data
     if RH is None:
-        act_data = act_data[act_data[:, 2] == V]
-        act_data = act_data[act_data[:, 3] == P]
-        data1 = [act_data[act_data[:, 4] == 30][:, 0], act_data[act_data[:, 4] == 30][:, 1]]
-        data2 = [act_data[act_data[:, 4] == 50][:, 0], act_data[act_data[:, 4] == 50][:, 1]]
-        data3 = [act_data[act_data[:, 4] == 100][:, 0], act_data[act_data[:, 4] == 100][:, 1]]
+        filtered_data = filtered_data[filtered_data[:, 2] == V]
+        filtered_data = filtered_data[filtered_data[:, 3] == P]
+        data1 = [filtered_data[filtered_data[:, 4] == 30][:, 0], filtered_data[filtered_data[:, 4] == 30][:, 1]]
+        data2 = [filtered_data[filtered_data[:, 4] == 50][:, 0], filtered_data[filtered_data[:, 4] == 50][:, 1]]
+        data3 = [filtered_data[filtered_data[:, 4] == 100][:, 0], filtered_data[filtered_data[:, 4] == 100][:, 1]]
         legend = ["30%", "50%", "100%"]
         title = "V: {}V , P: {}psig".format(str(V), str(P))
     elif P is None:
-        act_data = act_data[act_data[:, 2] == V]
-        act_data = act_data[act_data[:, 4] == RH]
-        data1 = [act_data[act_data[:, 3] == 5][:, 0], act_data[act_data[:, 3] == 5][:, 1]]
-        data2 = [act_data[act_data[:, 3] == 15][:, 0], act_data[act_data[:, 3] == 15][:, 1]]
-        data3 = [act_data[act_data[:, 3] == 25][:, 0], act_data[act_data[:, 3] == 25][:, 1]]
+        filtered_data = filtered_data[filtered_data[:, 2] == V]
+        filtered_data = filtered_data[filtered_data[:, 4] == RH]
+        data1 = [filtered_data[filtered_data[:, 3] == 5][:, 0], filtered_data[filtered_data[:, 3] == 5][:, 1]]
+        data2 = [filtered_data[filtered_data[:, 3] == 15][:, 0], filtered_data[filtered_data[:, 3] == 15][:, 1]]
+        data3 = [filtered_data[filtered_data[:, 3] == 25][:, 0], filtered_data[filtered_data[:, 3] == 25][:, 1]]
         legend = ["5psig", "15psig", "25psig"]
         title = "RH: {}% , V: {}V".format(str(RH), str(V))
     else:
-        act_data = act_data[act_data[:, 3] == P]
-        act_data = act_data[act_data[:, 4] == RH]
-        data1 = [act_data[act_data[:, 2] == 0.3][:, 0], act_data[act_data[:, 2] == 0.3][:, 1]]
-        data2 = [act_data[act_data[:, 2] == 0.5][:, 0], act_data[act_data[:, 2] == 0.5][:, 1]]
-        data3 = [act_data[act_data[:, 2] == 0.7][:, 0], act_data[act_data[:, 2] == 0.7][:, 1]]
+        filtered_data = filtered_data[filtered_data[:, 3] == P]
+        filtered_data = filtered_data[filtered_data[:, 4] == RH]
+        data1 = [filtered_data[filtered_data[:, 2] == 0.3][:, 0], filtered_data[filtered_data[:, 2] == 0.3][:, 1]]
+        data2 = [filtered_data[filtered_data[:, 2] == 0.5][:, 0], filtered_data[filtered_data[:, 2] == 0.5][:, 1]]
+        data3 = [filtered_data[filtered_data[:, 2] == 0.7][:, 0], filtered_data[filtered_data[:, 2] == 0.7][:, 1]]
         legend = ["0.3V", "0.5V", "0.7V"]
         title = "RH: {}% , P: {}psig".format(str(RH), str(P))
 
@@ -154,11 +154,11 @@ def polarization_plot1(data,RH,P):
     :type P: int
     :return: None
     """
-    act_data = data[data[:,4]==RH]
-    act_data = act_data[act_data[:,3]==P]
-    data_I = act_data[:,0]
-    data_V = act_data[:,1]
-    data_P = act_data[:,2]
+    filtered_data = data[data[:,4] == RH]
+    filtered_data = filtered_data[filtered_data[:,3] == P]
+    data_I = filtered_data[:,0]
+    data_V = filtered_data[:,1]
+    data_P = filtered_data[:,2]
     color1 = "red"
     color2 = "blue"
     x_label = "Current density (mA/cm2 )"
@@ -179,16 +179,16 @@ def polarization_plot2(data,set_index):
     :type set_index: int
     :return: None
     """
-    act_data = data[data[:,3]==set_index]
-    data_I = act_data[:,0]
-    data_V = act_data[:,1]
-    data_P = act_data[:,2]
+    filtered_data = data[data[:,3] == set_index]
+    data_I = filtered_data[:,0]
+    data_V = filtered_data[:,1]
+    data_P = filtered_data[:,2]
     color1 = "red"
     color2 = "blue"
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
     y_label_2 = "Power density (mw/cm2)"
-    title = "act set"+str(set_index)
+    title = "Set " + str(set_index)
     plot_func(data_I,data_V,title=title,x_label=x_label,y_label=y_label_1,color=color1)
     plot_func(data_I,data_P,title=title,x_label=x_label,y_label=y_label_2,color=color2)
 
