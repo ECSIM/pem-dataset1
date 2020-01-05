@@ -15,7 +15,7 @@ and material performance investigation in PEM fuel cell researches.
 
 ## Tests
 
-1. [Activation Test MEA Constant Current 0.25A](https://github.com/ECSIM/pem-dataset1/tree/master/Activation%20test%20MEA%20Constant%20Current%200.25A)
+1. [Activation Test MEA Constant Current 0.25A](https://github.com/ECSIM/pem-dataset1/tree/master/Activation%20Test%20MEA%20Constant%20Current%200.25A)
 2. [Activation Test MEA Constant Voltage 0.6V](https://github.com/ECSIM/pem-dataset1/tree/master/Activation%20Test%20MEA%20Constant%20Voltage%200.6V)
 3. [Activation Test MEA Constant Voltage 0.6V-2](https://github.com/ECSIM/pem-dataset1/tree/master/Activation%20Test%20MEA%20Constant%20Voltage%200.6V-2)
 4. [Activation Test MEA Constant Voltage 0.6V-3](https://github.com/ECSIM/pem-dataset1/tree/master/Activation%20Test%20MEA%20Constant%20Voltage%200.6V-3)
