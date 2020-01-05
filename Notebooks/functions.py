@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def load_data(path,set_flag=False):
+def load_data(path, set_flag=False):
     """
     Load dataset.
 
@@ -26,12 +26,20 @@ def load_data(path,set_flag=False):
     result = np.array(data)
     if set_flag:
         set_list = np.array(set_list)
-        set_list = set_list.reshape(set_list.shape[0],1)
-        result = np.concatenate((data,set_list),axis=1)
+        set_list = set_list.reshape(set_list.shape[0], 1)
+        result = np.concatenate((data, set_list), axis=1)
     return result
 
 
-def plot_func(x,y,title,x_label,y_label,color='green',legend=[],multi=False):
+def plot_func(
+        x,
+        y,
+        title,
+        x_label,
+        y_label,
+        color='green',
+        legend=[],
+        multi=False):
     """
     Plot function.
 
@@ -55,19 +63,20 @@ def plot_func(x,y,title,x_label,y_label,color='green',legend=[],multi=False):
     """
     plt.figure()
     plt.grid()
-    if multi==True:
-        for index,y_item in enumerate(y):
-            plt.plot(x[index],y_item,color=color[index])
+    if multi:
+        for index, y_item in enumerate(y):
+            plt.plot(x[index], y_item, color=color[index])
     else:
-        plt.plot(x,y,color=color)
+        plt.plot(x, y, color=color)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     plt.title(title)
-    if len(legend)!=0:
+    if len(legend) != 0:
         plt.legend(legend)
     plt.show()
 
-def impedance_plot1(data,set_index):
+
+def impedance_plot1(data, set_index):
     """
     Impedance plot function 1.
 
@@ -77,24 +86,33 @@ def impedance_plot1(data,set_index):
     :type set_index: int
     :return: None
     """
-    filtered_data = data[data[:,3]==set_index]
-    data_03V = [filtered_data[filtered_data[:,2]==0.3][:,0],filtered_data[filtered_data[:,2]==0.3][:,1]]
-    data_05V = [filtered_data[filtered_data[:,2]==0.5][:,0],filtered_data[filtered_data[:,2]==0.5][:,1]]
-    data_07V = [filtered_data[filtered_data[:,2]==0.7][:,0],filtered_data[filtered_data[:,2]==0.7][:,1]]
-    data_08V = [filtered_data[filtered_data[:,2]==0.8][:,0],filtered_data[filtered_data[:,2]==0.8][:,1]]
+    filtered_data = data[data[:, 3] == set_index]
+    data_03V = [filtered_data[filtered_data[:, 2] == 0.3][:, 0], filtered_data[filtered_data[:, 2] == 0.3][:, 1]]
+    data_05V = [filtered_data[filtered_data[:, 2] == 0.5][:, 0], filtered_data[filtered_data[:, 2] == 0.5][:, 1]]
+    data_07V = [filtered_data[filtered_data[:, 2] == 0.7][:, 0], filtered_data[filtered_data[:, 2] == 0.7][:, 1]]
+    data_08V = [filtered_data[filtered_data[:, 2] == 0.8][:, 0], filtered_data[filtered_data[:, 2] == 0.8][:, 1]]
 
-    x_plot_data = [data_03V[0],data_05V[0],data_07V[0],data_08V[0]]
-    y_plot_data = [data_03V[1],data_05V[1],data_07V[1],data_08V[1]]
+    x_plot_data = [data_03V[0], data_05V[0], data_07V[0], data_08V[0]]
+    y_plot_data = [data_03V[1], data_05V[1], data_07V[1], data_08V[1]]
 
-    legend = ["0.3V","0.5V","0.7V","0.8V"]
-    color = ["blue","green","red","black"]
+    legend = ["0.3V", "0.5V", "0.7V", "0.8V"]
+    color = ["blue", "green", "red", "black"]
     x_label = "ZReal(Ohm)"
     y_label = "ZImage(Ohm)"
-    title = "Set "+str(set_index)
+    title = "Set " + str(set_index)
 
-    plot_func(x_plot_data,y_plot_data,title=title,x_label=x_label,y_label=y_label,color=color,legend=legend,multi=True)
+    plot_func(
+        x_plot_data,
+        y_plot_data,
+        title=title,
+        x_label=x_label,
+        y_label=y_label,
+        color=color,
+        legend=legend,
+        multi=True)
 
-def impedance_plot2(data,RH=30,P=5,V=None):
+
+def impedance_plot2(data, RH=30, P=5, V=None):
     """
     Impedance plot function 2.
 
@@ -134,15 +152,24 @@ def impedance_plot2(data,RH=30,P=5,V=None):
         legend = ["0.3V", "0.5V", "0.7V"]
         title = "RH: {}% , P: {}psig".format(str(RH), str(P))
 
-    x_plot_data = [data1[0],data2[0],data3[0]]
-    y_plot_data = [data1[1],data2[1],data3[1]]
-    color = ["blue","green","red"]
+    x_plot_data = [data1[0], data2[0], data3[0]]
+    y_plot_data = [data1[1], data2[1], data3[1]]
+    color = ["blue", "green", "red"]
     x_label = "ZReal(Ohm)"
     y_label = "ZImage(Ohm)"
 
-    plot_func(x_plot_data,y_plot_data,title=title,x_label=x_label,y_label=y_label,color=color,legend=legend,multi=True)
+    plot_func(
+        x_plot_data,
+        y_plot_data,
+        title=title,
+        x_label=x_label,
+        y_label=y_label,
+        color=color,
+        legend=legend,
+        multi=True)
 
-def polarization_plot1(data,RH,P):
+
+def polarization_plot1(data, RH, P):
     """
     Polarization plot function 1.
 
@@ -154,22 +181,35 @@ def polarization_plot1(data,RH,P):
     :type P: int
     :return: None
     """
-    filtered_data = data[data[:,4] == RH]
-    filtered_data = filtered_data[filtered_data[:,3] == P]
-    data_I = filtered_data[:,0]
-    data_V = filtered_data[:,1]
-    data_P = filtered_data[:,2]
+    filtered_data = data[data[:, 4] == RH]
+    filtered_data = filtered_data[filtered_data[:, 3] == P]
+    data_I = filtered_data[:, 0]
+    data_V = filtered_data[:, 1]
+    data_P = filtered_data[:, 2]
     color1 = "red"
     color2 = "blue"
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
     y_label_2 = "Power density (mw/cm2)"
-    title = "RH: {}% , P: {}psig".format(str(RH),str(P))
+    title = "RH: {}% , P: {}psig".format(str(RH), str(P))
 
-    plot_func(data_I,data_V,title=title,x_label=x_label,y_label=y_label_1,color=color1)
-    plot_func(data_I,data_P,title=title,x_label=x_label,y_label=y_label_2,color=color2)
+    plot_func(
+        data_I,
+        data_V,
+        title=title,
+        x_label=x_label,
+        y_label=y_label_1,
+        color=color1)
+    plot_func(
+        data_I,
+        data_P,
+        title=title,
+        x_label=x_label,
+        y_label=y_label_2,
+        color=color2)
 
-def polarization_plot2(data,set_index):
+
+def polarization_plot2(data, set_index):
     """
     Polarization plot function 2.
 
@@ -179,32 +219,27 @@ def polarization_plot2(data,set_index):
     :type set_index: int
     :return: None
     """
-    filtered_data = data[data[:,3] == set_index]
-    data_I = filtered_data[:,0]
-    data_V = filtered_data[:,1]
-    data_P = filtered_data[:,2]
+    filtered_data = data[data[:, 3] == set_index]
+    data_I = filtered_data[:, 0]
+    data_V = filtered_data[:, 1]
+    data_P = filtered_data[:, 2]
     color1 = "red"
     color2 = "blue"
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
     y_label_2 = "Power density (mw/cm2)"
     title = "Set " + str(set_index)
-    plot_func(data_I,data_V,title=title,x_label=x_label,y_label=y_label_1,color=color1)
-    plot_func(data_I,data_P,title=title,x_label=x_label,y_label=y_label_2,color=color2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    plot_func(
+        data_I,
+        data_V,
+        title=title,
+        x_label=x_label,
+        y_label=y_label_1,
+        color=color1)
+    plot_func(
+        data_I,
+        data_P,
+        title=title,
+        x_label=x_label,
+        y_label=y_label_2,
+        color=color2)
