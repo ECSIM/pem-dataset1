@@ -3,6 +3,15 @@ import matplotlib.pyplot as plt
 
 
 def load_data(path,set_flag=False):
+    """
+    Load dataset.
+
+    :param path: file path
+    :type path: str
+    :param set_flag: activation set flag
+    :type set_flag: bool
+    :return: data as numpy array
+    """
     file = open(path, "r")
     data = []
     set_list = []
@@ -23,6 +32,27 @@ def load_data(path,set_flag=False):
 
 
 def plot_func(x,y,title,x_label,y_label,color='green',legend=[],multi=False):
+    """
+    Plot function.
+
+    :param x: x-axis data
+    :type x: list or numpy array
+    :param y: y-axis data
+    :type y: list or numpy array
+    :param title: plot title
+    :type title: str
+    :param x_label: x-axis label
+    :type x_label: str
+    :param y_label: y-axis label
+    :type y_label: str
+    :param color: plot color
+    :type color: str or list
+    :param legend: plot legends
+    :type legend: list
+    :param multi: multi plot flag
+    :type multi: bool
+    :return: None
+    """
     plt.figure()
     plt.grid()
     if multi==True:
@@ -38,8 +68,16 @@ def plot_func(x,y,title,x_label,y_label,color='green',legend=[],multi=False):
     plt.show()
 
 def impedance_plot1(data,set_index):
-    act_data = data[data[:,3]==set_index]
+    """
+    Impedance plot function 1.
 
+    :param data: input data
+    :type data: numpy array
+    :param set_index: activation set index
+    :type set_index: int
+    :return: None
+    """
+    act_data = data[data[:,3]==set_index]
     data_03V = [act_data[act_data[:,2]==0.3][:,0],act_data[act_data[:,2]==0.3][:,1]]
     data_05V = [act_data[act_data[:,2]==0.5][:,0],act_data[act_data[:,2]==0.5][:,1]]
     data_07V = [act_data[act_data[:,2]==0.7][:,0],act_data[act_data[:,2]==0.7][:,1]]
@@ -57,6 +95,19 @@ def impedance_plot1(data,set_index):
     plot_func(x_plot_data,y_plot_data,title=title,x_label=x_label,y_label=y_label,color=color,legend=legend,multi=True)
 
 def impedance_plot2(data,RH=30,P=5,V=None):
+    """
+    Impedance plot function 2.
+
+    :param data: input data
+    :type data: numpy array
+    :param RH: Relative humidity
+    :type RH: int (RH%)
+    :param P: Pressure (psi)
+    :type P: int
+    :param V: Voltage (V)
+    :type V: int
+    :return: None
+    """
     act_data = data
     if RH is None:
         act_data = act_data[act_data[:, 2] == V]
@@ -82,7 +133,7 @@ def impedance_plot2(data,RH=30,P=5,V=None):
         data3 = [act_data[act_data[:, 2] == 0.7][:, 0], act_data[act_data[:, 2] == 0.7][:, 1]]
         legend = ["0.3V", "0.5V", "0.7V"]
         title = "RH: {}% , P: {}psig".format(str(RH), str(P))
-        
+
     x_plot_data = [data1[0],data2[0],data3[0]]
     y_plot_data = [data1[1],data2[1],data3[1]]
     color = ["blue","green","red"]
@@ -92,6 +143,17 @@ def impedance_plot2(data,RH=30,P=5,V=None):
     plot_func(x_plot_data,y_plot_data,title=title,x_label=x_label,y_label=y_label,color=color,legend=legend,multi=True)
 
 def polarization_plot1(data,RH,P):
+    """
+    Polarization plot function 1.
+
+    :param data: input data
+    :type data: numpy array
+    :param RH: Relative humidity
+    :type RH: int (RH%)
+    :param P: Pressure (psi)
+    :type P: int
+    :return: None
+    """
     act_data = data[data[:,4]==RH]
     act_data = act_data[act_data[:,3]==P]
     data_I = act_data[:,0]
@@ -108,6 +170,15 @@ def polarization_plot1(data,RH,P):
     plot_func(data_I,data_P,title=title,x_label=x_label,y_label=y_label_2,color=color2)
 
 def polarization_plot2(data,set_index):
+    """
+    Polarization plot function 2.
+
+    :param data: input data
+    :type data: numpy array
+    :param set_index: activation set index
+    :type set_index: int
+    :return: None
+    """
     act_data = data[data[:,3]==set_index]
     data_I = act_data[:,0]
     data_V = act_data[:,1]
