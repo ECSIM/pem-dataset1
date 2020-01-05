@@ -52,25 +52,42 @@ def impedance_plot1(data,set_index):
     color = ["blue","green","red","black"]
     x_label = "ZReal(Ohm)"
     y_label = "ZImage(Ohm)"
-    title = "act set"+str(set_index)
+    title = "Set "+str(set_index)
 
     plot_func(x_plot_data,y_plot_data,title=title,x_label=x_label,y_label=y_label,color=color,legend=legend,multi=True)
 
-def impedance_plot2(data,RH,P):
-    act_data = data[data[:,4]==RH]
-    act_data = act_data[act_data[:,3]==P]
-    data_03V = [act_data[act_data[:,2]==0.3][:,0],act_data[act_data[:,2]==0.3][:,1]]
-    data_05V = [act_data[act_data[:,2]==0.5][:,0],act_data[act_data[:,2]==0.5][:,1]]
-    data_07V = [act_data[act_data[:,2]==0.7][:,0],act_data[act_data[:,2]==0.7][:,1]]
-
-    x_plot_data = [data_03V[0],data_05V[0],data_07V[0]]
-    y_plot_data = [data_03V[1],data_05V[1],data_07V[1]]
-
-    legend = ["0.3V","0.5V","0.7V"]
+def impedance_plot2(data,RH=30,P=5,V=None):
+    act_data = data
+    if RH is None:
+        act_data = act_data[act_data[:, 2] == V]
+        act_data = act_data[act_data[:, 3] == P]
+        data1 = [act_data[act_data[:, 4] == 30][:, 0], act_data[act_data[:, 4] == 30][:, 1]]
+        data2 = [act_data[act_data[:, 4] == 50][:, 0], act_data[act_data[:, 4] == 50][:, 1]]
+        data3 = [act_data[act_data[:, 4] == 100][:, 0], act_data[act_data[:, 4] == 100][:, 1]]
+        legend = ["30%", "50%", "100%"]
+        title = "V: {}V , P: {}psig".format(str(V), str(P))
+    elif P is None:
+        act_data = act_data[act_data[:, 2] == V]
+        act_data = act_data[act_data[:, 4] == RH]
+        data1 = [act_data[act_data[:, 3] == 5][:, 0], act_data[act_data[:, 3] == 5][:, 1]]
+        data2 = [act_data[act_data[:, 3] == 15][:, 0], act_data[act_data[:, 3] == 15][:, 1]]
+        data3 = [act_data[act_data[:, 3] == 25][:, 0], act_data[act_data[:, 3] == 25][:, 1]]
+        legend = ["5psig", "15psig", "25psig"]
+        title = "RH: {}% , V: {}V".format(str(RH), str(V))
+    else:
+        act_data = act_data[act_data[:, 3] == P]
+        act_data = act_data[act_data[:, 4] == RH]
+        data1 = [act_data[act_data[:, 2] == 0.3][:, 0], act_data[act_data[:, 2] == 0.3][:, 1]]
+        data2 = [act_data[act_data[:, 2] == 0.5][:, 0], act_data[act_data[:, 2] == 0.5][:, 1]]
+        data3 = [act_data[act_data[:, 2] == 0.7][:, 0], act_data[act_data[:, 2] == 0.7][:, 1]]
+        legend = ["0.3V", "0.5V", "0.7V"]
+        title = "RH: {}% , P: {}psig".format(str(RH), str(P))
+        
+    x_plot_data = [data1[0],data2[0],data3[0]]
+    y_plot_data = [data1[1],data2[1],data3[1]]
     color = ["blue","green","red"]
     x_label = "ZReal(Ohm)"
     y_label = "ZImage(Ohm)"
-    title = "RH: {}% , P: {}psig".format(str(RH),str(P))
 
     plot_func(x_plot_data,y_plot_data,title=title,x_label=x_label,y_label=y_label,color=color,legend=legend,multi=True)
 
