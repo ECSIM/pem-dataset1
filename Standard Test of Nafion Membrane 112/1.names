@@ -39,6 +39,6 @@ Column 1 is I (mA/cm²) (Current density)
 Column 2 is E_Stack (V) (Voltage)
 Column 3 is Power (mW/cm²)
 Column 4 is Pressure (psi) 
-Column 5 is Nafion percent
-Column 6 is Relative humidity (RH%)
+Column 5 is Relative humidity (RH%)
+Column 6 is Nafion percent
 Column 7 is Membrane compression (%)

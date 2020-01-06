@@ -55,9 +55,9 @@ Column 3 is Power (mW/cm²)
 
 Column 4 is Pressure (psi) 
 
-Column 5 is Nafion percent
+Column 5 is Relative humidity (RH%)
 
-Column 6 is Relative humidity (RH%)
+Column 6 is Nafion percent
 
 Column 7 is Membrane compression (%)
 ```			
@@ -80,9 +80,9 @@ Column 3 is Power (mW/cm²)
 
 Column 4 is Pressure (psi) 
 
-Column 5 is Nafion percent
+Column 5 is Relative humidity (RH%) 
 
-Column 6 is Relative humidity (RH%) 
+Column 6 is Nafion percent
 ```
 
 1. [Data File](2.csv)		
