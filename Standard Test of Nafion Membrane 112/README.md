@@ -4,26 +4,26 @@
 
 ### STRUCTURE
 - Anode: 
-	- Carbon paper ballard
-	- Platin-Carbon 20% 
-	- Nafion Solution (27% weight)
-	- 80ml isopropyl alcohol
+	- Carbon paper Ballard
+	- Platinum-Carbon 20% 
+	- Nafion solution (27% weight)
+	- 80ml Isopropyl alcohol
 	- 20ml double distilled water 
-	- Loading of Platin= 0.39 mg/cm2
+	- Loading of Platinum= 0.39 mg/cm2
 - Cathode1: 
-	- Carbon paper ballard
-	- Platin-Carbon 20%
-	- Nafion Solution (25% weight)
-	- 80ml isopropyl alcohol
+	- Carbon paper Ballard
+	- Platinum-Carbon 20%
+	- Nafion solution (25% weight)
+	- 80ml Isopropyl alcohol
 	- 20ml double distilled water
-	- Loading of Platin= 0.39 mg/cm2
+	- Loading of Platinum= 0.39 mg/cm2
 - Cathode2:
-	- Carbon paper ballard
-	- Platin-Carbon 20%
-	- Nafion Solution (20% weight)
-	- 80ml isopropyl alcohol
+	- Carbon paper Ballard
+	- Platinum-Carbon 20%
+	- Nafion solution (20% weight)
+	- 80ml Isopropyl alcohol
 	- 20ml double distilled water 
-	- Loading of Platin= 0.39 mg/cm2
+	- Loading of Platinum= 0.39 mg/cm2
 
 ### TEST CONDITIONS
 - Cell temperature= 75 C
@@ -53,7 +53,7 @@ Column 2: E_Stack (V) (Voltage)
 
 Column 3: Power (mW/cm²)
 
-Column 4: Pressure (psi) 
+Column 4: Pressure (psig) 
 
 Column 5: Relative humidity (RH%)
 
@@ -78,7 +78,7 @@ Column 2: E_Stack (V) (Voltage)
 
 Column 3: Power (mW/cm²)
 
-Column 4: Pressure (psi) 
+Column 4: Pressure (psig) 
 
 Column 5: Relative humidity (RH%) 
 
