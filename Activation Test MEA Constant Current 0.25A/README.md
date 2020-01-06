@@ -18,9 +18,9 @@
 3. Constant current 0.25Acm-2 (repeat for 17 time)
 
 ### OPERATION CONDITION AFTER ACTIVATION
-- RH 30%: Ta/ Tc/ Tcell: 80/49/75
-- RH 50%: Ta/ Tc/ Tcell: 80/59/75
-- RH 100%: Ta/ Tc/ Tcell: 80/75/75
+- RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
+- RH 50%: Ta/ Tc/ Tcell: 80/59/75 C
+- RH 100%: Ta/ Tc/ Tcell: 80/75/75 C
 - P= 5psig: flow H2/O2 or air= 200/200
 - P= 15psig: flow H2/O2 or air= 300/300
 - P= 25psig: flow H2/O2 or air= 500/500
@@ -32,9 +32,9 @@
 
 
 ```
-Column 1: Zreal
+Column 1: Zreal (ohm)
 
-Column 2: Zimaginary
+Column 2: Zimaginary (ohm)
 
 Column 3: Voltage (V)
 
@@ -51,13 +51,13 @@ Column 4: Activation set
 
 
 ```
-Column 1: Zreal
+Column 1: Zreal (ohm)
 
-Column 2: Zimaginary
+Column 2: Zimaginary (ohm)
 
 Column 3: Voltage (V)
 
-Column 4: Pressure (psi)
+Column 4: Pressure (psig)
 
 Column 5: Relative humidity (RH%)
 ```
@@ -70,13 +70,13 @@ Column 5: Relative humidity (RH%)
 ### 3- Impedance : Various Voltages (2)
 
 ```
-Column 1: Zreal
+Column 1: Zreal (ohm)
 
-Column 2: Zimaginary
+Column 2: Zimaginary (ohm)
 
 Column 3: Voltage (V)
 
-Column 4: Pressure (psi)
+Column 4: Pressure (psig)
 
 Column 5: Relative humidity (RH%)
 ```
@@ -95,7 +95,7 @@ Column 2: E_Stack (V) (Voltage)
 
 Column 3: Power (mW/cm²)
 
-Column 4: Pressure (psi)
+Column 4: Pressure (psig)
 
 Column 5: Relative humidity (RH%) 
 ```
@@ -115,7 +115,7 @@ Column 2: E_Stack (V) (Voltage)
 
 Column 3: Power (mW/cm²)
 
-Column 4: Pressure (psi)
+Column 4: Pressure (psig)
 
 Column 5: Relative humidity (RH%) 
 ```
