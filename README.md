@@ -26,24 +26,7 @@ and material performance investigation in PEM fuel cell researches.
 8. [Activation Test MEA Standard Protocol (Repeat)](https://github.com/ECSIM/pem-dataset1/tree/master/Activation%20Test%20MEA%20Standard%20Protocol%20(Repeat))
 9. [Standard Test of Nafion Membrane 112](https://github.com/ECSIM/pem-dataset1/tree/master/Standard%20Test%20of%20Nafion%20Membrane%20112)
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 15px;
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
-}
-</style>
-
-<a href=""><button class="btn"><i class="fa fa-download"></i>&nbsp;Download Dataset</button><a/>
+<a href=""><img src="images/button.png"><a/>
 
 ## Notebooks
 
