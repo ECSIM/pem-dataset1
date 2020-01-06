@@ -58,7 +58,7 @@ Column 3:Voltage (V)
 
 Column 4:Pressure (psi)
 
-Column 5:Relative humidity percent (RH%)
+Column 5:Relative humidity (RH%)
 ```
 
 1. [Data File](2.csv)		
@@ -77,7 +77,7 @@ Column 3: Voltage (V)
 
 Column 4: Pressure (psi)
 
-Column 5: Relative humidity percent (RH%)
+Column 5: Relative humidity (RH%)
 ```
 
 1. [Data File](3.csv)		
@@ -96,7 +96,7 @@ Column 3:Power density (mW/cm2)
 
 Column 4:Pressure (psi)
 
-Column 5:Relative humidity percent (RH%)
+Column 5:Relative humidity (RH%)
 ```
 
 1. [Data File](4.csv)		
@@ -116,7 +116,7 @@ Column 3:Power density (mW/cm2)
 
 Column 4:Pressure (psi)
 
-Column 5:Relative humidity percent (RH%)
+Column 5:Relative humidity (RH%)
 ```
 
 1. [Data File](5.csv)		

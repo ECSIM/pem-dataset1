@@ -30,5 +30,5 @@ Column 1:Current density (mA/cm2)
 Column 2:Cell voltage (V)
 Column 3:Power density (mW/cm2)
 Column 4:Pressure (psi)
-Column 5:Relative humidity percent (RH%)
+Column 5:Relative humidity (RH%)
 Polarization curves 0.7V at the end of activation procedure in different cathode humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25

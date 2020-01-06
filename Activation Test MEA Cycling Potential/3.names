@@ -30,5 +30,5 @@ Column 1: Zreal
 Column 2: Zimaginary
 Column 3: Voltage (V)
 Column 4: Pressure (psi)
-Column 5: Relative humidity percent (RH%)
+Column 5: Relative humidity (RH%)
 Impedance curves various V at the end of activation procedure in different cathode humidity condition 30 a 50 and 100% at pressure a) 5, b) 15, c) 25 
