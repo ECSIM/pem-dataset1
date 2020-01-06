@@ -85,7 +85,7 @@ Column 5: Relative humidity (RH%)
 2. [Names File](3.names)
 
 
-### 4- Polarization : End of Activation Procedure
+### 4- Polarization : End of Activation Procedure (1)
 
 ```
 Column 1: Current density (mA/cm2)
@@ -105,7 +105,7 @@ Column 5: Relative humidity (RH%)
 
 
 
-### 5- Polarization : 0.7V - End of Activation Procedure
+### 5- Polarization : End of Activation Procedure (2)
 
 ```
 Column 1: Current density (mA/cm2)
@@ -123,7 +123,7 @@ Column 5: Relative humidity (RH%)
 
 2. [Names File](5.names)
 
-### 6- Polarization : After Activation Procedure
+### 6- Polarization : End of Each Activation Set
 
 ```
 Column 1: Current density (mA/cm2)
