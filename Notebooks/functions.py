@@ -190,10 +190,10 @@ def polarization_plot1(data, RH, P, NP=None, MC=None):
     title = "RH: {}% , P: {}psig".format(str(RH), str(P))
     if NP is not None :
         filtered_data = filtered_data[filtered_data[:, 5] == NP]
-        title += " NP: {}".format(str(NP))
+        title += ", NP: {}".format(str(NP))
     if MC is not None :
         filtered_data = filtered_data[filtered_data[:, 6] == MC]
-        title += " MC: {}".format(str(MC))
+        title += ", MC: {}".format(str(MC))
     data_I = filtered_data[:, 0]
     data_V = filtered_data[:, 1]
     data_P = filtered_data[:, 2]
