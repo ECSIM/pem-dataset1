@@ -118,12 +118,12 @@ def impedance_plot2(data, RH=None, P=None, V=None):
 
     :param data: input data
     :type data: numpy array
-    :param RH: Relative humidity
-    :type RH: int (RH%)
+    :param RH: Relative humidity (RH%)
+    :type RH: float
     :param P: Pressure (psi)
-    :type P: int
+    :type P: float
     :param V: Voltage (V)
-    :type V: int
+    :type V: float
     :return: None
     """
     filtered_data = data
@@ -169,20 +169,31 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         multi=True)
 
 
-def polarization_plot1(data, RH, P):
+def polarization_plot1(data, RH, P, NP=None, MC=None):
     """
     Polarization plot function 1.
 
     :param data: input data
     :type data: numpy array
-    :param RH: Relative humidity
-    :type RH: int (RH%)
+    :param RH: Relative humidity (RH%)
+    :type RH: float
     :param P: Pressure (psi)
-    :type P: int
+    :type P: float
+    :param NP: Nafion percent
+    :type NP: float
+    :param MC: Membrane compression
+    :type MC: float
     :return: None
     """
     filtered_data = data[data[:, 4] == RH]
     filtered_data = filtered_data[filtered_data[:, 3] == P]
+    title = "RH: {}% , P: {}psig".format(str(RH), str(P))
+    if NP is not None :
+        filtered_data = filtered_data[filtered_data[:, 5] == NP]
+        title += " NP: {}".format(str(NP))
+    if MC is not None :
+        filtered_data = filtered_data[filtered_data[:, 6] == MC]
+        title += " MC: {}".format(str(MC))
     data_I = filtered_data[:, 0]
     data_V = filtered_data[:, 1]
     data_P = filtered_data[:, 2]
@@ -191,7 +202,6 @@ def polarization_plot1(data, RH, P):
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
     y_label_2 = "Power density (mw/cm2)"
-    title = "RH: {}% , P: {}psig".format(str(RH), str(P))
 
     plot_func(
         data_I,
