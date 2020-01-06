@@ -26,9 +26,9 @@ P= 25psig: flow H2/O2 or air= 500/500
 
 
 DATA DESCRIPTION:
-Column 1:Current density (mA/cm2)
-Column 2:Cell voltage (V)
-Column 3:Power density (mW/cm2)
-Column 4:Pressure (psi)
-Column 5:Relative humidity (RH%)
+Column 1: Current density (mA/cm2)
+Column 2: Cell voltage (V)
+Column 3: Power density (mW/cm2)
+Column 4: Pressure (psi)
+Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in humidity condition 30, 50, 100% a) 5, b) 15 and c) 25 psig

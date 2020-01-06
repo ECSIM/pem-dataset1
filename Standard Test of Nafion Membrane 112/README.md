@@ -47,19 +47,19 @@
 ### 1- Membrane Compression 5% & 12% : Various Nafion Percent, Various RHC			
 
 ```
-Column 1 is I (mA/cm²) (Current density)
+Column 1: I (mA/cm²) (Current density)
 
-Column 2 is E_Stack (V) (Voltage)
+Column 2: E_Stack (V) (Voltage)
 
-Column 3 is Power (mW/cm²)
+Column 3: Power (mW/cm²)
 
-Column 4 is Pressure (psi) 
+Column 4: Pressure (psi) 
 
-Column 5 is Relative humidity (RH%)
+Column 5: Relative humidity (RH%)
 
-Column 6 is Nafion percent
+Column 6: Nafion percent
 
-Column 7 is Membrane compression (%)
+Column 7: Membrane compression (%)
 ```			
 	
 
@@ -72,17 +72,17 @@ Column 7 is Membrane compression (%)
 
 
 ```
-Column 1 is I (mA/cm²) (Current density)
+Column 1: I (mA/cm²) (Current density)
 
-Column 2 is E_Stack (V) (Voltage)
+Column 2: E_Stack (V) (Voltage)
 
-Column 3 is Power (mW/cm²)
+Column 3: Power (mW/cm²)
 
-Column 4 is Pressure (psi) 
+Column 4: Pressure (psi) 
 
-Column 5 is Relative humidity (RH%) 
+Column 5: Relative humidity (RH%) 
 
-Column 6 is Nafion percent
+Column 6: Nafion percent
 ```
 
 1. [Data File](2.csv)		

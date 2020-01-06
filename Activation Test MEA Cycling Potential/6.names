@@ -26,8 +26,8 @@ P= 25psig: flow H2/O2 or air= 500/500
 
 
 DATA DESCRIPTION:
-Column 1:Current density (mA/cm2)
-Column 2:Cell voltage (V)
-Column 3:Power density (mW/cm2)
-Column 4:Activation set  
+Column 1: Current density (mA/cm2)
+Column 2: Cell voltage (V)
+Column 3: Power density (mW/cm2)
+Column 4: Activation set  
 Polarization curves after 1 hour during  activation procedure 

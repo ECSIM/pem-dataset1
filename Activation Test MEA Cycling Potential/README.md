@@ -50,15 +50,15 @@ Column 4: Activation set
 
 
 ```
-Column 1:Zreal
+Column 1: Zreal
 
-Column 2:Zimaginary
+Column 2: Zimaginary
 
-Column 3:Voltage (V)
+Column 3: Voltage (V)
 
-Column 4:Pressure (psi)
+Column 4: Pressure (psi)
 
-Column 5:Relative humidity (RH%)
+Column 5: Relative humidity (RH%)
 ```
 
 1. [Data File](2.csv)		
@@ -88,15 +88,15 @@ Column 5: Relative humidity (RH%)
 ### 4- Polarization : End of Activation Procedure
 
 ```
-Column 1:Current density (mA/cm2)
+Column 1: Current density (mA/cm2)
 
-Column 2:Cell voltage (V)
+Column 2: Cell voltage (V)
 
-Column 3:Power density (mW/cm2)
+Column 3: Power density (mW/cm2)
 
-Column 4:Pressure (psi)
+Column 4: Pressure (psi)
 
-Column 5:Relative humidity (RH%)
+Column 5: Relative humidity (RH%)
 ```
 
 1. [Data File](4.csv)		
@@ -108,15 +108,15 @@ Column 5:Relative humidity (RH%)
 ### 5- Polarization : 0.7V - End of Activation Procedure
 
 ```
-Column 1:Current density (mA/cm2)
+Column 1: Current density (mA/cm2)
 
-Column 2:Cell voltage (V)
+Column 2: Cell voltage (V)
 
-Column 3:Power density (mW/cm2)
+Column 3: Power density (mW/cm2)
 
-Column 4:Pressure (psi)
+Column 4: Pressure (psi)
 
-Column 5:Relative humidity (RH%)
+Column 5: Relative humidity (RH%)
 ```
 
 1. [Data File](5.csv)		
@@ -126,13 +126,13 @@ Column 5:Relative humidity (RH%)
 ### 6- Polarization : After Activation Procedure
 
 ```
-Column 1:Current density (mA/cm2)
+Column 1: Current density (mA/cm2)
 
-Column 2:Cell voltage (V)
+Column 2: Cell voltage (V)
 
-Column 3:Power density (mW/cm2)
+Column 3: Power density (mW/cm2)
 
-Column 4:Activation set 
+Column 4: Activation set 
 ```
 
 1. [Data File](6.csv)		
