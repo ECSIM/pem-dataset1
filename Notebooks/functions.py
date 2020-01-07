@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 COLORS = ["blue", "green", "red", "black","orange","yellow"]
+MARKERS = [".","o","o","s","p","*","+","|","_"]
 
 def load_data(path, set_flag=False):
     """
@@ -40,6 +41,8 @@ def plot_func(
         y_label,
         color='green',
         legend=[],
+        marker=[],
+        linewidth=3,
         multi=False):
     """
     Plot function.
@@ -58,6 +61,10 @@ def plot_func(
     :type color: str or list
     :param legend: plot legends
     :type legend: list
+    :param marker : data marker
+    :type marker: list
+    :param linewidth: plot line width
+    :type linewidth: int
     :param multi: multi plot flag
     :type multi: bool
     :return: None
@@ -66,9 +73,9 @@ def plot_func(
     plt.grid()
     if multi:
         for index, y_item in enumerate(y):
-            plt.plot(x[index], y_item, color=color[index])
+            plt.plot(x[index], y_item, color=color[index], marker=marker[index], linewidth=linewidth)
     else:
-        plt.plot(x, y, color=color)
+        plt.plot(x, y, color=color, linewidth=linewidth)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     plt.title(title)
@@ -96,6 +103,7 @@ def impedance_plot1(data, set_index):
         y_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 1])
     legend = list(map(lambda x: str(x)+"V",voltages))
     color = COLORS[:len(legend)]
+    marker = MARKERS[:len(legend)]
     x_label = "ZReal(Ohm)"
     y_label = "ZImage(Ohm)"
     title = "Set " + str(set_index)
@@ -108,6 +116,7 @@ def impedance_plot1(data, set_index):
         y_label=y_label,
         color=color,
         legend=legend,
+        marker=marker,
         multi=True)
 
 
@@ -157,6 +166,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
             legend = list(map(lambda x: str(x) + "V", voltages))
         title = "RH: {}% , P: {}psig".format(str(RH), str(P))
     color = COLORS[:len(legend)]
+    marker = MARKERS[:len(legend)]
     x_label = "ZReal(Ohm)"
     y_label = "ZImage(Ohm)"
 
@@ -168,6 +178,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         y_label=y_label,
         color=color,
         legend=legend,
+        marker=marker,
         multi=True)
 
 
@@ -199,8 +210,8 @@ def polarization_plot1(data, RH, P, NP=None, MC=None):
     data_I = filtered_data[:, 0]
     data_V = filtered_data[:, 1]
     data_P = filtered_data[:, 2]
-    color1 = "red"
-    color2 = "blue"
+    color1 = COLORS[0]
+    color2 = COLORS[1]
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
     y_label_2 = "Power density (mw/cm2)"
@@ -235,8 +246,8 @@ def polarization_plot2(data, set_index):
     data_I = filtered_data[:, 0]
     data_V = filtered_data[:, 1]
     data_P = filtered_data[:, 2]
-    color1 = "red"
-    color2 = "blue"
+    color1 = COLORS[0]
+    color2 = COLORS[1]
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
     y_label_2 = "Power density (mw/cm2)"
