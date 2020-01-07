@@ -18,9 +18,9 @@ ACTIVATION PROCEDURE:
 Constant voltage 0.6V
 
 OPERATION CONDITION AFTER ACTIVATION:
-RH 30%: Ta/ Tc/ Tcell: 80/49/75
-RH 50%: Ta/ Tc/ Tcell: 80/59/75
-RH 100%: Ta/ Tc/ Tcell: 80/75/75
+RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
+RH 50%: Ta/ Tc/ Tcell: 80/59/75 C
+RH 100%: Ta/ Tc/ Tcell: 80/75/75 C
 P= 5psig: flow H2/O2 or air= 200/200
 P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
@@ -32,7 +32,7 @@ Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
 Column 4: Activation set 
 
-	    OCV	R(mΩ) MPD
+	OCV	R(mΩ)   MPD
 st 1	960	98	330
 st 2	975	92	462
 st 3	978	91	513
