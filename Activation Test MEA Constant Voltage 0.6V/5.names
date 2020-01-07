@@ -15,9 +15,9 @@ ACTIVATION PROCEDURE:
 Constant voltage 0.6V
 
 OPERATION CONDITION AFTER ACTIVATION:
-RH 30%: Ta/ Tc/ Tcell: 80/49/75
-RH 50%: Ta/ Tc/ Tcell: 80/59/75
-RH 100%: Ta/ Tc/ Tcell: 80/75/75
+RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
+RH 50%: Ta/ Tc/ Tcell: 80/59/75 C
+RH 100%: Ta/ Tc/ Tcell: 80/75/75 C
 P= 5psig: flow H2/O2 or air= 200/200
 P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
@@ -26,7 +26,7 @@ DATA DESCRIPTION:
 Column 1: I (mA/cm²) (Current density)
 Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
-Column 4: Pressure (psi)
+Column 4: Pressure (psg)
 Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in different air humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25 
 
@@ -44,6 +44,6 @@ RH	OCV	  i at 0.5V	 i at 0.3V	R(mΩ)
 
 25psi:
 RH	OCV	  i at 0.5V	 i at 0.3V	R(mΩ)
-30	967	    1300	  1400	     47
-50	988	    1300	  1300	      -
-100	973	    800	      900	     42
+30	967	    1300	   1400	      47
+50	988	    1300	   1300	       -
+100	973	    800	      900	      42
