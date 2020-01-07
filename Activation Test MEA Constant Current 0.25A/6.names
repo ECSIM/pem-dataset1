@@ -17,9 +17,9 @@ ACTIVATION PROCEDURE:
 3) Constant current 0.25Acm-2 (repeat for 17 time)
 
 OPERATION CONDITION AFTER ACTIVATION:
-RH 30%: Ta/ Tc/ Tcell: 80/49/75
-RH 50%: Ta/ Tc/ Tcell: 80/59/75
-RH 100%: Ta/ Tc/ Tcell: 80/75/75
+RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
+RH 50%: Ta/ Tc/ Tcell: 80/59/75 C
+RH 100%: Ta/ Tc/ Tcell: 80/75/75 C
 P= 5psig: flow H2/O2 or air= 200/200
 P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
@@ -32,21 +32,21 @@ Column 3: Power (mW/cm²)
 Column 4: Activation set 
 
 	    OCV	MPD	R(mΩ)
-initial	968	215	142
-st 1	979	345	122
-st 2	972	380	116
-st 3	990	460	102
-st 4	985	508	99
-st 5	977	529	94
-st 6	978	540	93
-st 7	982	594	92
-st 8	975	605	89
-st 9	975	600	89
-st 10	977	600	89
-st 11	979	709	84
-st 12	976	705	83
-st 13	974	700	83
-st 14	975	696	83
-st 15	980	703	82
-st 16	977	694	83
-st 17	980	703	82
+st 1	968	215	142
+st 2	979	345	122
+st 3	972	380	116
+st 4	990	460	102
+st 5	985	508	99
+st 6	977	529	94
+st 7	978	540	93
+st 8	982	594	92
+st 9	975	605	89
+st 10	975	600	89
+st 11	977	600	89
+st 12	979	709	84
+st 13	976	705	83
+st 14	974	700	83
+st 15	975	696	83
+st 16	980	703	82
+st 17	977	694	83
+st 18	980	703	82
