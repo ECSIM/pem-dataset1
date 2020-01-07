@@ -23,8 +23,8 @@ P= 15psig: flow H2/O2 or air= 300/300
 
 
 DATA DESCRIPTION:
-Column 1: Zreal
-Column 2: Zimaginary
+Column 1: Zreal (ohm)
+Column 2: Zimaginary (ohm)
 Column 3: Voltage (V)
 Column 4: Pressure (psig)
 Column 5: Relative humidity (RH%)
