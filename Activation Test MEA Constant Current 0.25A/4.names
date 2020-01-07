@@ -35,9 +35,9 @@ Polarization curves at the end of activation procedure in humidity condition 30,
 
 5psi:
 RH  OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
-30	996	  869    1500         2500            64
-50	988	  1248   2500         3500            63
-100	990	  1258   2500         3500            63
+30  996   869    1500         2500            64
+50  988   1248   2500         3500            63
+100 990   1258   2500         3500            63
 
 15psi:
 RH  OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
