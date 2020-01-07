@@ -18,9 +18,9 @@ ACTIVATION PROCEDURE:
 4) Constant current 0.2Acm-2 for 12hr
 
 OPERATION CONDITION AFTER ACTIVATION:
-RH 30%: Ta/ Tc/ Tcell: 80/49/75
-RH 50%: Ta/ Tc/ Tcell: 80/59/75
-RH 100%: Ta/ Tc/ Tcell: 80/75/75
+RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
+RH 50%: Ta/ Tc/ Tcell: 80/59/75 C
+RH 100%: Ta/ Tc/ Tcell: 80/75/75 C
 P= 5psig: flow H2/O2 or air= 200/200
 P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
@@ -30,14 +30,14 @@ DATA DESCRIPTION:
 Column 1: I (mA/cm²) (Current density)
 Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
-Column 4: Pressure (psi)
+Column 4: Pressure (psig)
 Column 5: Relative humidity (RH%) 
 Polarization curves at the end of activation procedure in different air humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25
 
 5psi:
 RH	OCV	 MPD	i at 0.5V	i at 0.3V	R(mΩ)
 30	1001 1058	2000	     3000	      69
-50	984	 1024	2000         2800	      79
+50	984	 1024	2000       2800	      79
 100	1071 1234	2500	     3300	      65
 
 15psi:
