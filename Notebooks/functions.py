@@ -233,7 +233,7 @@ def polarization_plot1(data, RH, P, NP=None, MC=None):
     color2 = COLORS[1]
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
-    y_label_2 = "Power density (mw/cm2)"
+    y_label_2 = "Power density (mW/cm2)"
 
     plot_func(
         data_I,
@@ -278,7 +278,7 @@ def polarization_plot2(data, set_index):
     marker = MARKERS[:len(legend)]
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
-    y_label_2 = "Power density (mw/cm2)"
+    y_label_2 = "Power density (mW/cm2)"
     title = ""
     plot_func(
         data_I,
