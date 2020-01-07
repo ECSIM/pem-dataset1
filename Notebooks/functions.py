@@ -1,8 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-COLORS = ["blue", "green", "red", "black","orange","yellow"]
-MARKERS = [".","o","o","s","p","*","+","|","_"]
+COLORS = ['blue', 'green', 'red', 'black','orange','mediumblue', 'ivory', 'green', 'indianred', 'darkorchid', 'seashell', 'teal', 'darkgrey', 'midnightblue', 'lightslategray', 'cornsilk',
+          'seagreen', 'goldenrod', 'turquoise', 'darkorange', 'dimgray', 'lawngreen', 'darkblue', 'lime', 'cadetblue', 'mistyrose', 'mediumorchid', 'mediumseagreen', 'lightyellow', 'mediumspringgreen', 'black', 'darkviolet', 'lightskyblue', 'silver', 'maroon', 'darkkhaki', 'aliceblue', 'gray', 'lightgrey', 'darkslategray', 'magenta', 'palegoldenrod', 'steelblue', 'whitesmoke', 'yellow']
+MARKERS = [".","o","o","s","p","*","+","X","|","v","^","H","<",">","1","2","3","x","D","h"] * 5
 
 def format_number(num):
     """
@@ -257,30 +258,44 @@ def polarization_plot2(data, set_index):
     :param data: input data
     :type data: numpy array
     :param set_index: activation set index
-    :type set_index: int
+    :type set_index: int or list
     :return: None
     """
-    filtered_data = data[data[:, 3] == set_index]
-    data_I = filtered_data[:, 0]
-    data_V = filtered_data[:, 1]
-    data_P = filtered_data[:, 2]
-    color1 = COLORS[0]
-    color2 = COLORS[1]
+    data_I = []
+    data_V = []
+    data_P = []
+    set_list = sorted(set_index)
+    if isinstance(set_index,int):
+        set_list = [set_index]
+    for i in set_list:
+        filtered_data = data[data[:, 3] == i]
+        data_I.append(filtered_data[:, 0])
+        data_V.append(filtered_data[:, 1])
+        data_P.append(filtered_data[:, 2])
+    legend = list(map(lambda x: "set-"+format_number(x), set_list))
+    color = COLORS[:len(legend)]
+    marker = MARKERS[:len(legend)]
     x_label = "Current density (mA/cm2 )"
     y_label_1 = "Cell voltage (V)"
     y_label_2 = "Power density (mw/cm2)"
-    title = "Set " + str(set_index)
+    title = ""
     plot_func(
         data_I,
         data_V,
         title=title,
         x_label=x_label,
         y_label=y_label_1,
-        color=color1)
+        color=color,
+        legend=legend,
+        marker=marker,
+        multi=True)
     plot_func(
         data_I,
         data_P,
         title=title,
         x_label=x_label,
         y_label=y_label_2,
-        color=color2)
+        color=color,
+        legend=legend,
+        marker=marker,
+        multi=True)
