@@ -4,6 +4,24 @@ import matplotlib.pyplot as plt
 COLORS = ["blue", "green", "red", "black","orange","yellow"]
 MARKERS = [".","o","o","s","p","*","+","|","_"]
 
+def format_number(num):
+    """
+    Removing trailing zeros.
+
+    :param num: input number
+    :type num: float
+    :return: formatted number as str
+    """
+    str_num = str(num)
+    if "." in str_num:
+        splitted_num = str_num.split(".")
+        if int(splitted_num[-1]) == 0:
+            return "".join(splitted_num[:-1])
+        else:
+            return str_num
+    else:
+        return str_num
+
 def load_data(path, set_flag=False):
     """
     Load dataset.
@@ -101,7 +119,7 @@ def impedance_plot1(data, set_index):
     for v in voltages:
         x_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 0])
         y_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 1])
-    legend = list(map(lambda x: str(x)+"V",voltages))
+    legend = list(map(lambda x: format_number(x)+"V",voltages))
     color = COLORS[:len(legend)]
     marker = MARKERS[:len(legend)]
     x_label = "ZReal(Ohm)"
@@ -145,7 +163,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         for h in humidity:
             x_plot_data.append(filtered_data[filtered_data[:, 4] == h][:, 0])
             y_plot_data.append(filtered_data[filtered_data[:, 4] == h][:, 1])
-        legend = list(map(lambda x: str(x)+"%",humidity))
+        legend = list(map(lambda x: format_number(x)+"%",humidity))
         title = "V: {}V , P: {}psig".format(str(V), str(P))
     elif P is None:
         filtered_data = filtered_data[filtered_data[:, 2] == V]
@@ -154,7 +172,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         for p in pressure:
             x_plot_data.append(filtered_data[filtered_data[:, 3] == p][:, 0])
             y_plot_data.append(filtered_data[filtered_data[:, 3] == p][:, 1])
-        legend = list(map(lambda x: str(x) + "psig", pressure))
+        legend = list(map(lambda x: format_number(x) + "psig", pressure))
         title = "RH: {}% , V: {}V".format(str(RH), str(V))
     else:
         filtered_data = filtered_data[filtered_data[:, 3] == P]
@@ -163,7 +181,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         for v in voltages:
             x_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 0])
             y_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 1])
-            legend = list(map(lambda x: str(x) + "V", voltages))
+            legend = list(map(lambda x: format_number(x) + "V", voltages))
         title = "RH: {}% , P: {}psig".format(str(RH), str(P))
     color = COLORS[:len(legend)]
     marker = MARKERS[:len(legend)]
