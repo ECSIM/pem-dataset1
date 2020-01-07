@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+COLORS = ["blue", "green", "red", "black","orange","yellow"]
 
 def load_data(path, set_flag=False):
     """
@@ -87,16 +88,14 @@ def impedance_plot1(data, set_index):
     :return: None
     """
     filtered_data = data[data[:, 3] == set_index]
-    data_03V = [filtered_data[filtered_data[:, 2] == 0.3][:, 0], filtered_data[filtered_data[:, 2] == 0.3][:, 1]]
-    data_05V = [filtered_data[filtered_data[:, 2] == 0.5][:, 0], filtered_data[filtered_data[:, 2] == 0.5][:, 1]]
-    data_07V = [filtered_data[filtered_data[:, 2] == 0.7][:, 0], filtered_data[filtered_data[:, 2] == 0.7][:, 1]]
-    data_08V = [filtered_data[filtered_data[:, 2] == 0.8][:, 0], filtered_data[filtered_data[:, 2] == 0.8][:, 1]]
-
-    x_plot_data = [data_03V[0], data_05V[0], data_07V[0], data_08V[0]]
-    y_plot_data = [data_03V[1], data_05V[1], data_07V[1], data_08V[1]]
-
-    legend = ["0.3V", "0.5V", "0.7V", "0.8V"]
-    color = ["blue", "green", "red", "black"]
+    x_plot_data = []
+    y_plot_data = []
+    voltages = sorted(list(set(filtered_data[filtered_data[:, 2]])))
+    for v in voltages:
+        x_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 0])
+        y_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 1])
+    legend = list(map(lambda x: str(x)+"V",voltages))
+    color = COLORS[:len(legend)]
     x_label = "ZReal(Ohm)"
     y_label = "ZImage(Ohm)"
     title = "Set " + str(set_index)
