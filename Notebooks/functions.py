@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-COLORS = ['blue', 'green', 'red', 'black','orange','mediumblue', 'ivory', 'green', 'indianred', 'darkorchid', 'seashell', 'teal', 'darkgrey', 'midnightblue', 'lightslategray', 'cornsilk',
-          'seagreen', 'goldenrod', 'turquoise', 'darkorange', 'dimgray', 'lawngreen', 'darkblue', 'lime', 'cadetblue', 'mistyrose', 'mediumorchid', 'mediumseagreen', 'lightyellow', 'mediumspringgreen', 'black', 'darkviolet', 'lightskyblue', 'silver', 'maroon', 'darkkhaki', 'aliceblue', 'gray', 'lightgrey', 'darkslategray', 'magenta', 'palegoldenrod', 'steelblue', 'whitesmoke', 'yellow']
+COLORS = ['blue', 'green', 'red', 'black','orange','mediumblue', 'green', 'indianred', 'darkorchid', 'seashell', 'teal', 'darkgrey', 'midnightblue', 'lightslategray', 'cornsilk',
+          'seagreen', 'goldenrod', 'turquoise', 'darkorange', 'dimgray', 'lawngreen', 'darkblue', 'lime', 'cadetblue', 'mistyrose', 'mediumorchid', 'mediumseagreen', 'lightyellow', 'mediumspringgreen', 'black', 'darkviolet', 'lightskyblue', 'silver', 'maroon', 'darkkhaki', 'aliceblue', 'gray', 'lightgrey', 'darkslategray', 'magenta', 'palegoldenrod', 'steelblue', 'yellow']
 MARKERS = [".","o","o","s","p","*","+","X","|","v","^","H","<",">","1","2","3","x","D","h"] * 5
 
 def format_number(num):
@@ -120,7 +120,7 @@ def impedance_plot1(data, set_index):
     for v in voltages:
         x_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 0])
         y_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 1])
-    legend = list(map(lambda x: format_number(x)+"V",voltages))
+    legend = list(map(lambda x: "V: "+format_number(x)+"V",voltages))
     color = COLORS[:len(legend)]
     marker = MARKERS[:len(legend)]
     x_label = "ZReal(Ohm)"
@@ -164,7 +164,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         for h in humidity:
             x_plot_data.append(filtered_data[filtered_data[:, 4] == h][:, 0])
             y_plot_data.append(filtered_data[filtered_data[:, 4] == h][:, 1])
-        legend = list(map(lambda x: format_number(x)+"%",humidity))
+        legend = list(map(lambda x: "RH: "+format_number(x)+"%",humidity))
         title = "V: {}V , P: {}psig".format(str(V), str(P))
     elif P is None:
         filtered_data = filtered_data[filtered_data[:, 2] == V]
@@ -173,7 +173,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         for p in pressure:
             x_plot_data.append(filtered_data[filtered_data[:, 3] == p][:, 0])
             y_plot_data.append(filtered_data[filtered_data[:, 3] == p][:, 1])
-        legend = list(map(lambda x: format_number(x) + "psig", pressure))
+        legend = list(map(lambda x: "P: "+format_number(x) + "psig", pressure))
         title = "RH: {}% , V: {}V".format(str(RH), str(V))
     else:
         filtered_data = filtered_data[filtered_data[:, 3] == P]
@@ -182,7 +182,7 @@ def impedance_plot2(data, RH=None, P=None, V=None):
         for v in voltages:
             x_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 0])
             y_plot_data.append(filtered_data[filtered_data[:, 2] == v][:, 1])
-            legend = list(map(lambda x: format_number(x) + "V", voltages))
+            legend = list(map(lambda x: "V: "+format_number(x) + "V", voltages))
         title = "RH: {}% , P: {}psig".format(str(RH), str(P))
     color = COLORS[:len(legend)]
     marker = MARKERS[:len(legend)]
@@ -264,9 +264,10 @@ def polarization_plot2(data, set_index):
     data_I = []
     data_V = []
     data_P = []
-    set_list = sorted(set_index)
     if isinstance(set_index,int):
         set_list = [set_index]
+    else:
+        set_list = sorted(set_index)
     for i in set_list:
         filtered_data = data[data[:, 3] == i]
         data_I.append(filtered_data[:, 0])
