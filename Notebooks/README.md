@@ -11,6 +11,13 @@
 9. [Standard Test of Nafion Membrane 112](https://nbviewer.jupyter.org/github/ECSIM/pem-dataset1/blob/master/Notebooks/Standard%20Test%20of%20Nafion%20Membrane%20112.ipynb)
 
 
+<table style="border-collapse: collapse;">
+	<tr>
+		<td align="center"><b>Build Status</b></td>
+		<td align="center"><a href="https://travis-ci.org/ECSIM/pem-dataset1"><img src="https://travis-ci.org/ECSIM/pem-dataset1.svg?branch=master"></a></td>
+	</tr>
+</table>
+
 ## Interactive Notebooks	
 
 These **Notebooks** can be used interactively via the Binder service! Try it out now! :
