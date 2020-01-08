@@ -35,19 +35,19 @@ Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in different cathode humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25 
 
 5psi:
-RH	OCV	MPD	i at 0.5V	i at 0.3V	R(mΩ)
-30	973	461	900	            1050	61
-50	974	504	950	            1050	58
-100	977	199	300	            350	    65
+RH   OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
+30   973   461    900          1050            61
+50   974   504    950          1050            58
+100  977   199    300          350             65
 
 15psi:
-RH	OCV	MPD	i at 0.5V	i at 0.3V	R(mΩ)
-30	982	568	1100	         1300	64
-50	985	606	1200	         1250	63
-100	986	292	500	            500	39
+RH   OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
+30   982   568    1100         1300            64
+50   985   606    1200         1250            63
+100  986   292    500          500             39
 
 25psi:
-RH	OCV	MPD	i at 0.5V	i at 0.3V	R(mΩ)
-30	984	644	1300	         1500	67
-50	985	648	1250	         1300	61
-100	986	292	700	            700	39
+RH   OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
+30   984   644    1300         1500            67
+50   985   648    1250         1300            61
+100  986   292    700          700             39
