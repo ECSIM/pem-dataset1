@@ -1,6 +1,7 @@
 import os
 import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
+from art import tprint
 
 NOTEBOOKS_LIST = [
     "Activation Test MEA Constant Current 0.25A",
@@ -19,6 +20,8 @@ EXTENSION = ".ipynb"
 
 
 if __name__ == "__main__":
+    tprint("PEM DATASET1","bulbhead")
+    tprint("NOTEBOOKS","bulbhead")
     ep = ExecutePreprocessor(timeout=600, kernel_name='python3')
     for index, notebook in enumerate(NOTEBOOKS_LIST):
         path = os.path.join("Notebooks", notebook)
