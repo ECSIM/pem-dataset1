@@ -10,6 +10,6 @@ matrix:
         - os: linux
           python: 3.5
 install:
-  - pip install -r Notebook/requirements.txt
+  - pip install -r Notebooks/requirements.txt
 script:
-  - python Notebook/test.py
+  - python Notebooks/test.py
