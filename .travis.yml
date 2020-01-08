@@ -1,0 +1,15 @@
+language: python
+
+matrix:
+    include:
+        - os: linux
+          python: 3.7
+          dist: xenial
+        - os: linux
+          python: 3.6
+        - os: linux
+          python: 3.5
+install:
+  - pip install -r Notebook/requirements.txt
+script:
+  - python Notebook/test.py
