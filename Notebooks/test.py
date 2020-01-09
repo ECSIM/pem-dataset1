@@ -23,6 +23,7 @@ if __name__ == "__main__":
     tprint("PEM DATASET1","bulbhead")
     tprint("NOTEBOOKS","bulbhead")
     ep = ExecutePreprocessor(timeout=600, kernel_name='python3')
+    print("Processing ...")
     for index, notebook in enumerate(NOTEBOOKS_LIST):
         path = os.path.join("Notebooks", notebook)
         with open(path + EXTENSION) as f:
