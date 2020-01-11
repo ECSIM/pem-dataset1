@@ -18,7 +18,7 @@
 3. Cycling potential between 0.7 - 14min and 0.5V - 14 min for 10 times
 4. Constant current 0.2Acm-2 for 18hr
 
-Each activation set contains a repetition of the items of activation procedure. 9 sets, 9 repetition. 
+Each activation set contains a repetition of the items of activation procedure. 24 sets, 24 repetition. 
 
 ### OPERATION CONDITION AFTER ACTIVATION
 - RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
