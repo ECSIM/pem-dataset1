@@ -43,7 +43,7 @@ RH  OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
 RH  OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
 30  1013  988    2000         2750            74
 50  982   1297   2500         3500            67
-100       790    1500         1500
+100 1008  790    1500         1500            70
 	
 25psi:
 RH  OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
