@@ -40,7 +40,7 @@ RH   OCV   MPD   R(mΩ)
 RH   OCV   MPD   R(mΩ)
 30   990   1388  68
 50   997   1505  60
-100	 -     542   50
+100	 1003  542   50
 
 25psi:
 RH   OCV   MPD   R(mΩ)
