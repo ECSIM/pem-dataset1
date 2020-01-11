@@ -16,6 +16,7 @@
 1. 10 min OCV
 2. 30 min at constant voltage 0.6V
 3. Constant current 0.25Acm-2 (repeat for 18 time)
+
 Each activation set contains a repetition of the items of activation procedure. 18 sets, 18 repetition. 
 
 ### OPERATION CONDITION AFTER ACTIVATION
