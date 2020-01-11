@@ -36,7 +36,7 @@ Polarization curves at the end of activation procedure in different air humidity
 
 5psi:
 RH   OCV   MPD   R(mΩ)
-30   977   435   -
+30   977   435   56
 50   972   525   57
 100  966   474   53
 
@@ -44,7 +44,7 @@ RH   OCV   MPD   R(mΩ)
 RH   OCV   MPD   R(mΩ)
 30   989   586   72
 50   975   611   62
-100  -     421   53
+100  988   421   53
 
 25psi:
 RH   OCV   MPD   R(mΩ)
