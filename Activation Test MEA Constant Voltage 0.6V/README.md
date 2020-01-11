@@ -14,6 +14,7 @@
 
 ### ACTIVATION PROCEDURE
 1. Constant voltage 0.6V
+
 Each activation set contains a repetition of the items of activation procedure. 9 sets, 9 repetition. 
 
 ### OPERATION CONDITION AFTER ACTIVATION
