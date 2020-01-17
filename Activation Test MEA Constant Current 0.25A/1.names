@@ -29,6 +29,6 @@ P= 25psig: flow H2/O2 or air= 500/500
 DATA DESCRIPTION:
 Column 1: Zreal (ohm)
 Column 2: Zimaginary (ohm)
-Column 3: Voltage (V)
+Column 3: Applied voltage (V)
 Column 4: Activation set
 Impedance curves at the end of each activation set a) 0.3, b) 0.5, c) 0.7 and d) 0.8V; 60 /50/ 55 C, 5psig flow rate H2/O2: 200/200 mlmin-1 
