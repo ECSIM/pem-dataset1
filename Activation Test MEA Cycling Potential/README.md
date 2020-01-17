@@ -35,7 +35,7 @@ Column 1: Zreal (ohm)
 
 Column 2: Zimaginary (ohm)
 
-Column 3: Voltage (V)
+Column 3: Applied voltage (V)
 
 Column 4: Activation set
 ```			
@@ -54,7 +54,7 @@ Column 1: Zreal (ohm)
 
 Column 2: Zimaginary (ohm)
 
-Column 3: Voltage (V)
+Column 3: Applied voltage (V)
 
 Column 4: Pressure (psig)
 
@@ -73,7 +73,7 @@ Column 1: Zreal (ohm)
 
 Column 2: Zimaginary (ohm)
 
-Column 3: Voltage (V)
+Column 3: Applied voltage (V)
 
 Column 4: Pressure (psig)
 
