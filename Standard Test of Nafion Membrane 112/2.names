@@ -39,7 +39,7 @@ Column 1 is I (mA/cm²) (Current Density)
 Column 2 is E_Stack (V) (Voltage)
 Column 3 is Power (mW/cm²)
 Column 4 is Pressure (psig) 
-Column 5 is Nafion Percent
+Column 5 is Memberane compression (%) 
 Column 6 is Relative humidity of the cathode (RHC%) 
 
 RHC 30%
