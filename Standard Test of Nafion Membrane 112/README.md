@@ -82,7 +82,7 @@ Column 4: Pressure (psig)
 
 Column 5: Relative humidity (RH%) 
 
-Column 6: Nafion percent
+Column 6: Memberane compression (%) 
 ```
 
 1. [Data File](2.csv)		
