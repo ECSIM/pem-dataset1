@@ -33,11 +33,64 @@ Constant V at 0.5 V (20 min)
 Relative Pressure (End)×5
 Constant C at 250 mA/cm2 (60 min)
 
-DATA DESCRIPTION:
+Data decription:
 Effect of percent of Nafion membrane (N%) and Relative Humidity of the Cathode (RHC%) on cell performance @ various compression of membrane @ various pressure
-Column 1: I (mA/cm²) (Current density)
-Column 2: E_Stack (V) (Voltage)
-Column 3: Power (mW/cm²)
-Column 4: Pressure (psig) 
-Column 5: Relative humidity (RH%) 
-Column 6: Nafion percent
+Column 1 is I (mA/cm²) (Current Density)
+Column 2 is E_Stack (V) (Voltage)
+Column 3 is Power (mW/cm²)
+Column 4 is Pressure (psig) 
+Column 5 is Nafion Percent
+Column 6 is Relative humidity of the cathode (RHC%) 
+
+RHC 30%
+P(psi)	Comp	MPD(mW/cm2)	i(mA/cm2)@0.8V	i(mA/cm2)@0.5V	i(mA/cm2)@0.3V	R(mΩ)@ 0.5V
+5      	5%   	462      	141	            899         	1360         	127
+    	11.8%	266     	74          	550         	900         	139
+    	18%  	310     	27          	500          	800         	158
+15   	5%  	513     	162         	1000          	1500          	166
+    	11.8%	328      	130          	840	            1250          	154
+    	18%	    422     	91          	640          	930         	148
+25   	5%  	602     	181          	1120           	1740          	161
+    	11.8%	367     	170	            1180           	1830          	155
+    	18%  	614     	110         	710          	1020         	121
+
+RHC 50%
+P(psi)	Comp	MPD(mW/cm2) i(mA/cm2)@0.8V	i(mA/cm2)@0.5V	i(mA/cm2)@0.3V	R(mΩ)@ 0.5V
+5    	5%   	471      	131         	887         	1350           	124
+     	11.8% 	305     	80           	700         	1000        	144
+    	18%  	376     	40           	600          	850         	135
+15   	5%  	558     	136          	1010           	1500          	146
+    	11.8%  	353     	107         	1060           	1400         	150
+    	18%  	522     	60           	700         	1030          	136
+25   	5%   	555     	226         	1110          	1600        	159
+    	11.8%  	507     	200          	1200         	1700        	150
+    	18%	    604     	145         	980          	1470         	138
+
+RHC 80%
+P(psi)	Comp	MPD(mW/cm2)	i(mA/cm2)@0.8V	i(mA/cm2)@0.5V	i(mA/cm2)@0.3V	R(mΩ)@ 0.5V
+5      	5%   	526       	140          	1000           	1500          	120
+    	11.8%  	320       	100         	800          	1150           	112
+     	18%  	400        	50           	600         	880         	123
+15     	5%   	672       	270          	1300          	1900        	114
+     	11.8%  	414	        150         	1000           	1500        	117
+     	18%  	505        	70           	800         	1150        	125
+25     	5%   	720      	291         	1420           	2000        	118
+      	11.8% 	446      	200	            1100         	1600        	121
+     	18%	    580     	170          	900          	1250         	126
+		
+RHC 100%
+P(psi)	Comp	MPD(mW/cm2)	i(mA/cm2)@0.8V	i(mA/cm2)@0.5V	i(mA/cm2)@0.3V	R(mΩ)@ 0.5V
+5      	5%  	511      	150           	970          	1450          	103
+      	11.8% 	334       	150         	860           	1270           	106
+      	18%	    457       	80          	650           	900         	110
+15     	5%  	630        	290           	1300           	1800         	110
+      	11.8%	434      	240         	1100          	1600         	110
+    	18% 	578       	170          	850          	1180          	107
+25    	5%  	704      	294          	1400          	1970          	114
+    	11.8%	468      	250         	1200           	1700          	114
+      	18% 	625	        170         	900            	1300         	116
+		
+		
+
+
+
