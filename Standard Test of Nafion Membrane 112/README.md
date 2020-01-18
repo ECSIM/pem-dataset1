@@ -57,7 +57,7 @@ Column 4: Pressure (psig)
 
 Column 5: Nafion percent (%) 
 
-Column 6: Relative humidity of the cathode (RH%)
+Column 6: Relative humidity of the cathode (RHC%)
 
 Column 7: Membrane compression (%)
 ```			
@@ -82,7 +82,7 @@ Column 4: Pressure (psig)
 
 Column 5: Memberane compression (%) 
 
-Column 6: Relative humidity of the cathode (RH%) 
+Column 6: Relative humidity of the cathode (RHC%) 
 ```
 
 1. [Data File](2.csv)		
