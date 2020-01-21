@@ -53,13 +53,13 @@ Column 2: E_Stack (V) (Voltage)
 
 Column 3: Power (mW/cm²)
 
-Column 4: Pressure (psig) 
+Column 4: Pressure (psig)  
 
-Column 5: Nafion percent (%) 
+Column 5: Relative humidity of the cathode (RHC%)
 
-Column 6: Relative humidity of the cathode (RHC%)
+Column 6: Membrane compression (%)
 
-Column 7: Membrane compression (%)
+Column 7: Nafion percent (%)
 ```			
 	
 
@@ -80,9 +80,9 @@ Column 3: Power (mW/cm²)
 
 Column 4: Pressure (psig) 
 
-Column 5: Memberane compression (%) 
+Column 5: Relative humidity of the cathode (RHC%) 
 
-Column 6: Relative humidity of the cathode (RHC%) 
+Column 6: Memberane compression (%) 
 ```
 
 1. [Data File](2.csv)		

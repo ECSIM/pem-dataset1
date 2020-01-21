@@ -33,14 +33,14 @@ Constant V at 0.5 V (20 min)
 Relative Pressure (End)×5
 Constant C at 250 mA/cm2 (60 min)
 
-Data decription:
+DATA DECRIPTION:
 Effect of percent of Nafion membrane (N%) and Relative Humidity of the Cathode (RHC%) on cell performance @ various compression of membrane @ various pressure
-Column 1 is I (mA/cm²) (Current Density)
-Column 2 is E_Stack (V) (Voltage)
-Column 3 is Power (mW/cm²)
-Column 4 is Pressure (psig) 
-Column 5 is Memberane compression (%) 
-Column 6 is Relative humidity of the cathode (RHC%) 
+Column 1: I (mA/cm²) (Current Density)
+Column 2: E_Stack (V) (Voltage)
+Column 3: Power (mW/cm²)
+Column 4: Pressure (psig) 
+Column 5: Relative humidity of the cathode (RHC%) 
+Column 6: Memberane compression (%) 
 
 RHC 30%
 P(psi)	Comp	MPD(mW/cm2)	i(mA/cm2)@0.8V	i(mA/cm2)@0.5V	i(mA/cm2)@0.3V	R(mΩ)@ 0.5V
