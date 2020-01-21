@@ -221,10 +221,10 @@ def polarization_plot1(data, RH, P, NP=None, MC=None):
     filtered_data = filtered_data[filtered_data[:, 3] == P]
     title = "RH: {}% , P: {}psig".format(str(RH), str(P))
     if NP is not None :
-        filtered_data = filtered_data[filtered_data[:, 5] == NP]
+        filtered_data = filtered_data[filtered_data[:, 6] == NP]
         title += ", NP: {}".format(str(NP))
     if MC is not None :
-        filtered_data = filtered_data[filtered_data[:, 6] == MC]
+        filtered_data = filtered_data[filtered_data[:, 5] == MC]
         title += ", MC: {}".format(str(MC))
     data_I = filtered_data[:, 0]
     data_V = filtered_data[:, 1]
