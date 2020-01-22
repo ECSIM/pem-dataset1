@@ -37,7 +37,7 @@ Polarization curves at the end of activation procedure in different cathode humi
 RH  OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
 30  970   459    1000         1200            102
 50  977   512    900          1200            58
-100 986   500    900      not recorded        61       
+100 986   500    900          NA              61       
 
 15psi:
 RH  OCV   MPD    i at 0.5V    i at 0.3V       R(mΩ)
