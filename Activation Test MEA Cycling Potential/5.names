@@ -32,3 +32,19 @@ Column 3: Power density (mW/cm2)
 Column 4: Pressure (psig)
 Column 5: Relative humidity (RH%)
 Polarization curves 0.7V at the end of activation procedure in different cathode humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25
+
+5 psig:
+RH	OCV	i at 0.5V	  i at 0.3V R(mΩ)	MPD	
+30	973	632	        937	      68  329	
+50	965	556	        729	      70  280	
+
+15 psig:
+RH	OCV	 i at 0.5V	i at 0.3V	R(mΩ) MPD
+30	982  912	      1352     	69    481
+50	975	 943	      1219    	70    478
+
+25 psig:
+RH	OCV	i at 0.5V	  i at 0.3V	R(mΩ) MPD
+30	998	1368       	1461     	71    589
+50	992	1142     	  1219     	69    543
+100	988	---      	  ---	      68    164
