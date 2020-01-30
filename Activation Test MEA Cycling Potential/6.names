@@ -32,7 +32,7 @@ Column 3: Power density (mW/cm2)
 Column 4: Activation set  
 Polarization curves during activation procedure in three sets
 
-	    OCV	 i at 0.5V	i at 0.3V	R(mΩ)
-st 1	991	 870	      1214	    70
-st 2	1003 895	      1220	    72
-st 3	1014 1092	      1486	    70
+        OCV    i at 0.5V    i at 0.3V       R(mΩ)
+st 1    991    870          1214            70
+st 2    1003   895          1220            72
+st 3    1014   1092         1486            70
