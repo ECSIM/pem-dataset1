@@ -29,3 +29,14 @@ Column 2: Zimaginary (ohm)
 Column 3: Applied voltage (V)
 Column 4: Activation set
 Impedance curves at the end of each activation  a) 0.3, b) 0.5, c) 0.7 and d) 0.8V; 60 /50/ 55 C, 5psig flow rate H2/O2: 200/200 mlmin-1 
+
+        OCV(mV)   R(mΩ)   MPD(mW/cm2)
+st 1    942       82      462
+st 2    978       76      648
+st 3    975       77      714
+st 4    983       72      900
+st 5    980       72      929
+st 6    982       74      930
+st 7    982       74      924
+st 8    985       72      1014
+st 9    980       77      993

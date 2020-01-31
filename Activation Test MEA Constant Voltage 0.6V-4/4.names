@@ -31,19 +31,19 @@ Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in humidity condition 30, 50, 100% a) 5, b) 15 and c) 25 psig 
 
 5psi:
-RH   OCV   MPD   R(mΩ)
-30   970   1128  61
-50   996   1225  57
-100  1001  1358  58
+RH(%)   OCV(mV)   MPD(mW/cm2)   R(mΩ)
+30      970       1128          61
+50      996       1225          57
+100     1001      1358          58
 
 15psi:
-RH   OCV   MPD   R(mΩ)
-30   990   1388  68
-50   997   1505  60
-100	 1003  542   50
+RH(%)   OCV(mV)   MPD(mW/cm2)   R(mΩ)
+30      990       1388          68
+50      997       1505          60
+100	    1003      542           50
 
 25psi:
-RH   OCV   MPD   R(mΩ)
-30   1025  1522  64
-50   1004  1609  64
-100  1000  400   60
+RH(%)   OCV(mV)   MPD(mW/cm2)   R(mΩ)
+30      1025      1522          64
+50      1004      1609          64
+100     1000      400           60
