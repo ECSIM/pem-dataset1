@@ -31,19 +31,19 @@ Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in different air humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25 
 
 5psi:
-RH  OCV    i at 0.5V    i at 0.3V       R(mΩ)
-30  957    1000         1200            50
-50  977    1000         1050            45
-100 961    400          450             49
+RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
+30     957        1000                 1200                    50
+50     977        1000                 1050                    45
+100    961        400                  450                     49
 
 15psi:
-RH  OCV    i at 0.5V    i at 0.3V       R(mΩ)
-30  970    1500         1600            50
-50  973    1400         1400            46
-100 977    450          500             55
+RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
+30     970        1500                 1600                    50
+50     973        1400                 1400                    46
+100    977        450                  500                     55
 
 25psi:
-RH  OCV    i at 0.5V    i at 0.3V       R(mΩ)
-30  967    1300         1400            47
-50  988    1300         1300            44
-100 973    800          900             42
+RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
+30     967        1300                 1400                    47
+50     988        1300                 1300                    44
+100    973        800                  900                     42
