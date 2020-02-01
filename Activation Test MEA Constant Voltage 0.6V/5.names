@@ -47,3 +47,10 @@ RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
 30     967        1300                 1400                    47
 50     988        1300                 1300                    44
 100    973        800                  900                     42
+
+
+OCV: Open circuit voltage
+i at 0.5V: Current density at 0.5V
+i at 0.3V: Current density at 0.3V
+RH: Relative humidity
+R: High frequency resistance

@@ -39,3 +39,9 @@ st 6    980        1700                 2800                    70
 st 7    983        1700                 2800                    70
 st 8    982        1750                 3000                    66
 st 9    986        1700                 2800                    65
+
+
+OCV: Open circuit voltage
+i at 0.5V: Current density at 0.5V
+i at 0.3V: Current density at 0.3V
+R: High frequency resistance
