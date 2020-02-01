@@ -54,3 +54,8 @@ st 16   999       1025          75
 st 17   999       1019          74
 st 18   999       1010          75
 st 19   998       1011          75
+
+
+OCV: Open circuit voltage
+MPD: Maximum power density
+R: High frequency resistance
