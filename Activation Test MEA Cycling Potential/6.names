@@ -36,3 +36,9 @@ Polarization curves during activation procedure in three sets
 st 1    991        870                  1214                    70
 st 2    1003       895                  1220                    72
 st 3    1014       1092                 1486                    70
+
+
+OCV: Open circuit voltage
+i at 0.5V: Current density at 0.5V
+i at 0.3V: Current density at 0.3V
+R: High frequency resistance
