@@ -47,3 +47,9 @@ RH(%)   OCV(mV)   MPD(mW/cm2)   R(mΩ)
 30      1025      1522          64
 50      1004      1609          64
 100     1000      400           60
+
+
+OCV: Open circuit voltage
+MPD: Maximum power density
+RH: Relative humidity
+R: High frequency resistance
