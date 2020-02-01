@@ -50,3 +50,11 @@ RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(m
 30     980       634            1200                 1500                    72
 50     982       782            1500                 1400                    57
 100    985       231            300                  350                     59
+
+
+OCV: Open circuit voltage
+MPD: Maximum power density
+i at 0.5V: Current density at 0.5V
+i at 0.3V: Current density at 0.3V
+RH: Relative humidity
+R: High frequency resistance
