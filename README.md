@@ -11,7 +11,9 @@ before and after activation analysis can be concluded from data. In Polarization
 and power density change as a function of flows of H2/O2 and relative humidity. Resistance of the
 used equivalent circuit of fuel cell can be calculated from Impedance data. Thus, experimental
 response of the cell is obvious in the presented data, which is useful in depth analysis, simulation
-and material performance investigation in PEM fuel cell researches.
+and material performance investigation in PEM fuel cell researches.		
+
+For more information about MEA(Membrane Electrode Assembly) activation procedure visit [here](https://github.com/ECSIM/pem-dataset1/tree/master/MEA.md)
 
 ## Tests
 
