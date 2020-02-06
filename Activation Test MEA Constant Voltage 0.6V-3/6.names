@@ -1,6 +1,12 @@
 Activation Test MEA : Constant Voltage 0.6V (3) 
 Polarization : End of Each Activation Set
 
+SOURCE:
+Electrochemistry Simulation Tools (ECSIM) Organization 
+Website: https://www.ecsim.ir
+Repository: https://github.com/ECSIM/pem-dataset1
+Date received: 5 July 2019
+
 MEA STRUCTURE:
 Anode: A16: CP (TGP-0120) + Pt/C 20% + 30% Nafion + 1.98 mg DL/cm2 
 Catalyst loading: 0.396 mg/cm2
