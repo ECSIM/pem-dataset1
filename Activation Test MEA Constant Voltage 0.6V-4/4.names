@@ -1,6 +1,12 @@
 Activation Test MEA : Constant Voltage 0.6V (4) 
 Polarization : End of Activation Procedure (1)
 
+SOURCE:
+Electrochemistry Simulation Tools (ECSIM) Organization 
+Website: https://www.ecsim.ir
+Repository: https://github.com/ECSIM/pem-dataset1
+Date received: 5 July 2019
+
 MEA STRUCTURE:
 Anode: C39: CP (TGP-0120) + Pt/C 20% + 30% Nafion 
 Catalyst loading: 0.42 mg/cm2
