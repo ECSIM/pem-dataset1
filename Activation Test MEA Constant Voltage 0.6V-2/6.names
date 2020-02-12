@@ -39,18 +39,20 @@ Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
 Column 4: Activation set 
 
-        OCV(mV)   R(mΩ)   MPD(mW/cm2)
-st 1    973       122     337
-st 2    989       128     377
-st 3    988       124     400
-st 4    987       121     417
-st 5    986       98      538
-st 6    982       98      558
-st 7    981       95      557
-st 8    980       99      542
-st 9    980       99      564
+        OCV(mV)   R(mΩ)   MPD(mW/cm2)   NOI
+st 1    973       122     337           16
+st 2    989       128     377           16
+st 3    988       124     400           16
+st 4    987       121     417           16
+st 5    986       98      538           16
+st 6    982       98      558           16
+st 7    981       95      557           16
+st 8    980       99      542           16
+st 9    980       99      564           16
 
+Total NOI : 144
 
 OCV: Open circuit voltage
 MPD: Maximum power density
 R: High frequency resistance
+NOI: Number of instances

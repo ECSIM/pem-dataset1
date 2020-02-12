@@ -40,18 +40,20 @@ Column 3: Applied voltage (V)
 Column 4: Activation set
 Impedance curves along the activation  a) 0.5, b) 0.7; 60 /50/ 55 C, 5psig flow rate H2/O2: 200/200 mlmin-1
 
-        OCV(mV)   R(mΩ)   MPD(mW/cm2)
-st 1    973       122     337
-st 2    989       128     377
-st 3    988       124     400
-st 4    987       121     417
-st 5    986       98      538
-st 6    982       98      558
-st 7    981       95      557
-st 8    980       99      542
-st 9    980       99      564
+        OCV(mV)   R(mΩ)   MPD(mW/cm2)   NOI
+st 1    973       122     337           108
+st 2    989       128     377           113
+st 3    988       124     400           108
+st 4    987       121     417           112
+st 5    986       98      538           113
+st 6    982       98      558           109
+st 7    981       95      557           111
+st 8    980       99      542           110
+st 9    980       99      564           54
 
+Total NOI : 938
 
 OCV: Open circuit voltage
 MPD: Maximum power density
 R: High frequency resistance
+NOI: Number of instances
