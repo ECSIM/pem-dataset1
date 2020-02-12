@@ -35,3 +35,45 @@ Column 3: Applied voltage (V)
 Column 4: Pressure (psig)
 Column 5: Relative humidity (RH%)
 Impedance curves various V at the end of activation procedure in different cathode humidity condition 30 a 50 and 100% at pressure a) 5, b) 15, c) 25;
+
+5psi:
+RH(%)  AV(V)   NOI
+30     0.3     58
+       0.5     55
+       0.7     54
+50     0.3     58
+       0.5     54
+       0.7     52
+100    0.3     0
+       0.5     0
+       0.7     57
+	   
+15psi:
+RH(%)  AV(V)   NOI
+30     0.3     56
+       0.5     53
+       0.7     57
+50     0.3     52
+       0.5     53
+       0.7     51
+100    0.3     0
+       0.5     54
+       0.7     51
+	   
+25psi:
+RH(%)  AV(V)   NOI
+30     0.3     60
+       0.5     55
+       0.7     54
+50     0.3     58
+       0.5     54
+       0.7     52
+100    0.3     59
+       0.5     0
+       0.7     54
+
+Total NOI : 1261
+
+RH: Relative humidity
+AV: Applied voltage
+NOI: Number of instances

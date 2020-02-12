@@ -35,19 +35,21 @@ Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
 Column 4: Activation set 
 
-        OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
-st 1    965        1300                 2300                    75
-st 2    980        1700                 2700                    71
-st 3    980        1700                 2800                    70
-st 4    980        1700                 2800                    71
-st 5    984        1700                 2800                    70
-st 6    980        1700                 2800                    70
-st 7    983        1700                 2800                    70
-st 8    982        1750                 3000                    66
-st 9    986        1700                 2800                    65
+        OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+st 1    965        1300                 2300                    75      15
+st 2    980        1700                 2700                    71      16
+st 3    980        1700                 2800                    70      16
+st 4    980        1700                 2800                    71      16
+st 5    984        1700                 2800                    70      16
+st 6    980        1700                 2800                    70      16
+st 7    983        1700                 2800                    70      16
+st 8    982        1750                 3000                    66      16
+st 9    986        1700                 2800                    65      16
 
+Total NOI : 143
 
 OCV: Open circuit voltage
 i at 0.5V: Current density at 0.5V
 i at 0.3V: Current density at 0.3V
 R: High frequency resistance
+NOI: Number of instances

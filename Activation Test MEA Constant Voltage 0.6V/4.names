@@ -37,23 +37,24 @@ Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in humidity condition 30, 50, 100% a) 5, b) 15 and c) 25 psig 
 
 5psi:
-RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
-30     976       1140           2250                 3500                    55
-50     989       1270           2500                 3600                    53
-100    978       1340           2500                 3800                    51
+RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+30     976       1140           2250                 3500                    55      16
+50     989       1270           2500                 3600                    53      16
+100    978       1340           2500                 3800                    51      15
 
 15psi:
-RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
-30     990       1350           900                  1350                    54
-50     1003      1460           900                  1350                    54
-100    994       914            1100                 1500                    45
+RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+30     990       1350           900                  1350                    54      16
+50     1003      1460           900                  1350                    54      15
+100    994       914            1100                 1500                    45      15
 
 25psi:
-RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)
-30     994       1440           2800                 4100                    54
-50     1008      1560           3000                 4250                    54
-100    998       1010           2000                 2500                    44
+RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+30     994       1440           2800                 4100                    54      16
+50     1008      1560           3000                 4250                    54      16
+100    998       1010           2000                 2500                    44      15
 
+Total NOI : 140
 
 OCV: Open circuit voltage
 MPD: Maximum power density
@@ -61,3 +62,4 @@ i at 0.5V: Current density at 0.5V
 i at 0.3V: Current density at 0.3V
 RH: Relative humidity
 R: High frequency resistance
+NOI: Number of instances
