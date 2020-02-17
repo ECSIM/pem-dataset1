@@ -26,4 +26,21 @@ RH 100%: Ta/ Tc/ Tcell: 80/75/75
 P= 5psig: flow H2/O2 or air= 200/200
 P= 15psig: flow H2/O2 or air= 300/300
 
+DATA DISTRIBUTION:
+
+File          NOI       
+
+1.csv         1394
+
+2.csv         1291
+
+3.csv         764
+
+4.csv         143
+
+5.csv         140
+
+6.csv         142
+
+NOI: Number of instances
 
