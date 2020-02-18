@@ -37,3 +37,13 @@ Constant V at 0.5 V (20 min)
 Constant V at 0.5 V (20 min)
 Relative Pressure (End)×5
 Constant C at 250 mA/cm2 (60 min)
+
+DATA DISTRIBUTION:
+
+File          NOI       
+
+1.csv         651
+
+2.csv         562
+
+NOI: Number of instances
