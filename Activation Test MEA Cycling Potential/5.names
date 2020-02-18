@@ -40,21 +40,22 @@ Column 5: Relative humidity (RH%)
 Polarization curves 0.7V at the end of activation procedure in different cathode humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25
 
 5 psig:
-RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V    R(mΩ)    MPD(mW/cm2)
-30     973        632                  937                  68       329	
-50     965        556                  729                  70       280	
+RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V    R(mΩ)    MPD(mW/cm2)   NOI
+30     973        632                  937                  68       329           15
+50     965        556                  729                  70       280           16   	 
 
 15 psig:
-RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V    R(mΩ)    MPD(mW/cm2)
-30     982        912                  1352                 69       481
-50     975        943                  1219                 70       478
+RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V    R(mΩ)    MPD(mW/cm2)   NOI
+30     982        912                  1352                 69       481           16
+50     975        943                  1219                 70       478           16
 
 25 psig:
-RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V    R(mΩ)    MPD(mW/cm2)
-30     998        1368                 1461                 71       589
-50     992        1142                 1219                 69       543
-100    988        NA                   NA                   68       164
+RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V    R(mΩ)    MPD(mW/cm2)   NOI
+30     998        1368                 1461                 71       589           16
+50     992        1142                 1219                 69       543           14
+100    988        NA                   NA                   68       164           0
 
+Total NOI : 93
 
 OCV: Open circuit voltage
 MPD: Maximum power density
@@ -62,3 +63,4 @@ i at 0.5V: Current density at 0.5V
 i at 0.3V: Current density at 0.3V
 RH: Relative humidity
 R: High frequency resistance
+NOI: Number of instances
