@@ -30,5 +30,23 @@ P= 5psig: flow H2/O2 or air= 200/200
 P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
 
+DATA DISTRIBUTION:
+
+File          NOI       
+
+1.csv         5139
+
+2.csv         1452
+
+3.csv         1067
+
+4.csv         141
+
+5.csv         139
+
+6.csv         377
+
+NOI: Number of instances
+
 
 
