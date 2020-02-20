@@ -35,16 +35,16 @@ Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
 Column 4: Activation set 
 
-        OCV(mV)   R(mΩ)   MPD(mW/cm2)   NOI
-st 1    942       82      462           15
-st 2    978       76      648           15
-st 3    975       77      714           16
-st 4    983       72      900           16
-st 5    980       72      929           16
-st 6    982       74      930           16
-st 7    982       74      924           16
-st 8    985       72      1014          16
-st 9    980       77      993           16
+        OCV(mV)   MPD(mW/cm2)   R(mΩ)   NOI
+st 1    942       462           82      15
+st 2    978       648           76      15
+st 3    975       714           77      16
+st 4    983       900           72      16
+st 5    980       929           72      16
+st 6    982       930           74      16
+st 7    982       924           74      16
+st 8    985       1014          72      16
+st 9    980       993           77      16
 
 Total NOI : 142
 
