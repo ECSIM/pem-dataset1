@@ -37,22 +37,22 @@ Column 5: Relative humidity (RH%)
 Polarization curves at the end of activation procedure in different air humidity condition 30, 50 and 100% at pressure a) 5, b) 15, c) 25 
 
 5psi:
-RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
-30     957        1000                 1200                    50      15
-50     977        1000                 1050                    45      15
-100    961        400                  450                     49      14
+RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+30     957       525            1000                 1200                    50      15
+50     977       523            1000                 1050                    45      15
+100    961       231            400                  450                     49      14
 
 15psi:
-RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
-30     970        1500                 1600                    50      15
-50     973        1400                 1400                    46      15
-100    977        450                  500                     55      14
+RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+30     970       687            1500                 1600                    50      15
+50     973       709            1400                 1400                    46      15
+100    977       454            450                  500                     55      14
 
 25psi:
-RH(%)  OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
-30     967        1300                 1400                    47      15
-50     988        1300                 1300                    44      15
-100    973        800                  900                     42      15
+RH(%)  OCV(mV)   MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+30     967       776            1300                 1400                    47      15
+50     988       735            1300                 1300                    44      15
+100    973       286            800                  900                     42      15
 
 Total NOI : 133
 

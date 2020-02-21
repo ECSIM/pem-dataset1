@@ -36,16 +36,16 @@ Column 3: Applied voltage (V)
 Column 4: Activation set
 Impedance curves at the end of each activation  a) 0.3, b) 0.5, c) 0.7 and d) 0.8V; 60 /50/ 55 C, 5psig flow rate H2/O2: 200/200 mlmin-1 
 
-        OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
-st 1    965        1300                 2300                    75      229
-st 2    980        1700                 2700                    71      217
-st 3    980        1700                 2800                    70      218
-st 4    980        1700                 2800                    71      224
-st 5    984        1700                 2800                    70      206
-st 6    980        1700                 2800                    70      204
-st 7    983        1700                 2800                    70      205
-st 8    982        1750                 3000                    66      223
-st 9    986        1700                 2800                    65      211
+        OCV(mV)    MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+st 1    965        769            1300                 2300                    75      229
+st 2    980        925            1700                 2700                    71      217
+st 3    980        959            1700                 2800                    70      218
+st 4    980        970            1700                 2800                    71      224
+st 5    984        967            1700                 2800                    70      206
+st 6    980        977            1700                 2800                    70      204
+st 7    983        971            1700                 2800                    70      205
+st 8    982        1030           1750                 3000                    66      223
+st 9    986        979            1700                 2800                    65      211
 
 Total NOI : 1937
 
