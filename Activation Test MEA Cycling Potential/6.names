@@ -38,10 +38,10 @@ Column 3: Power density (mW/cm2)
 Column 4: Activation set  
 Polarization curves during activation procedure in three sets
 
-        OCV(mV)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
-st 1    991        870                  1214                    70      17
-st 2    1003       895                  1220                    72      16
-st 3    1014       1092                 1486                    70      16
+        OCV(mV)    MPD(mW/cm2)    i(mA/cm2) at 0.5V    i(mA/cm2) at 0.3V       R(mΩ)   NOI
+st 1    991        442            870                  1214                    70      17
+st 2    1003       453            895                  1220                    72      16
+st 3    1014       547            1092                 1486                    70      16
 
 Total NOI : 49
 
