@@ -40,6 +40,7 @@ Relative Pressure (End)×5
 Constant C at 250 mA/cm2 (60 min)
 
 DATA DESCRIPTION:
+*All numeric-valued
 Effect of percent of Nafion membrane (N%) and Relative Humidity of the Cathode (RHC%) on cell performance at 5% & 12% compression of membrane at various pressure
 Column 1: I (mA/cm²) (Current Density)
 Column 2: E_Stack (V) (Voltage)
