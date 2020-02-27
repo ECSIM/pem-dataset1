@@ -32,6 +32,7 @@ P= 25psig: flow H2/O2 or air= 500/500
 
 
 DATA DESCRIPTION:
+*All numeric-valued
 Column 1: Current density (mA/cm2)
 Column 2: Cell voltage (V)
 Column 3: Power density (mW/cm2)
