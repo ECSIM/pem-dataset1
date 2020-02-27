@@ -34,6 +34,27 @@ For more information about MEA(Membrane Electrode Assembly) activation procedure
 
 We have provided some **Jupyter Notebooks** to visualize the data, visit [here](https://github.com/ECSIM/pem-dataset1/tree/master/Notebooks)
 
+## Cite
+
+If you use this dataset in your research, we would appreciate citations to the following paper :
+
+<pre>
+Hamidi, Sarmin, Sepand Haghighi, and Kasra Askari. 2020. “Dataset of Standard Tests of Nafion 112 Membrane and Membrane Electrode Assembly (MEA) Activation Tests of Proton Exchange Membrane (PEM) Fuel Cell”. ChemRxiv. doi:10.26434/chemrxiv.11902023.
+</pre>
+<pre>
+
+@article{Hamidi2020,
+  doi = {10.26434/chemrxiv.11902023},
+  url = {https://doi.org/10.26434/chemrxiv.11902023},
+  year = {2020},
+  month = feb,
+  publisher = {American Chemical Society ({ACS})},
+  author = {Sarmin Hamidi and Sepand Haghighi and Kasra Askari},
+  title = {Dataset of Standard Tests of Nafion 112 Membrane and Membrane Electrode Assembly ({MEA}) Activation Tests of Proton Exchange Membrane ({PEM}) Fuel Cell}
+}
+
+
+</pre>
 
 ## License
 
