@@ -21,9 +21,9 @@ Each activation set contains a repetition of the items of activation procedure. 
 - RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
 - RH 50%: Ta/ Tc/ Tcell: 80/59/75 C
 - RH 100%: Ta/ Tc/ Tcell: 80/75/75 C
-- P= 5psig: flow H2/O2 or air= 200/200
-- P= 15psig: flow H2/O2 or air= 300/300
-- P= 25psig: flow H2/O2 or air= 500/500
+- P= 5psig: flow H2/O2 or air= 200/200 mlmin-1
+- P= 15psig: flow H2/O2 or air= 300/300 mlmin-1
+- P= 25psig: flow H2/O2 or air= 500/500 mlmin-1
 
 
 ## Files
