@@ -29,6 +29,7 @@ P= 15psig: flow H2/O2 or air= 300/300
 
 
 DATA DESCRIPTION:
+*All numeric-valued
 Column 1: Zreal (ohm)
 Column 2: Zimaginary (ohm)
 Column 3: Applied voltage (V)
