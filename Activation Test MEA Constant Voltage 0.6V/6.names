@@ -30,6 +30,7 @@ P= 15psig: flow H2/O2 or air= 300/300
 P= 25psig: flow H2/O2 or air= 500/500
 
 DATA DESCRIPTION:
+*All numeric-valued
 Column 1: I (mA/cm²) (Current Density)
 Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
