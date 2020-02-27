@@ -19,7 +19,7 @@ TREATMENT PROCEDURE:
 Electrodes were ultrasonicated in water for 60 min at 60 C
 
 OPERATION CONDITION:
-Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200
+Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200 ml/min
 
 ACTIVATION PROCEDURE:
 Constant voltage 0.6V
@@ -29,9 +29,9 @@ OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
 RH 50%: Ta/ Tc/ Tcell: 80/59/75 C
 RH 100%: Ta/ Tc/ Tcell: 80/75/75 C
-P= 5psig: flow H2/O2 or air= 200/200
-P= 15psig: flow H2/O2 or air= 300/300
-P= 25psig: flow H2/O2 or air= 500/500
+P= 5psig: flow H2/O2 or air= 200/200 ml/min
+P= 15psig: flow H2/O2 or air= 300/300 ml/min
+P= 25psig: flow H2/O2 or air= 500/500 ml/min
 
 
 DATA DESCRIPTION:
@@ -40,8 +40,7 @@ Column 1: Zreal (ohm)
 Column 2: Zimaginary (ohm)
 Column 3: Applied voltage (V)
 Column 4: Activation set
-Impedance curves at the end of each activation  a) 0.3, b) 0.5, c) 0.7 and d) 0.8V; 60 /50/ 55 C, 5psig flow rate H2/O2: 200/200 mlmin-1
-
+Impedance curves at the end of each activation  a) 0.3, b) 0.5, c) 0.7 and d) 0.8V; 60 /50/ 55 C, 5psig flow rate H2/O2: 200/200 ml/min
         OCV(mV)   MPD(mW/cm2)   R(mΩ)   NOI
 st 1    960       330           98      168
 st 2    975       462           92      166
