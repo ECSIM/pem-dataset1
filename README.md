@@ -39,7 +39,7 @@ We have provided some **Jupyter Notebooks** to visualize the data, visit [here](
 If you use this dataset in your research, we would appreciate citations to the following paper :
 
 <pre>
-Hamidi, Sarmin, Sepand Haghighi, and Kasra Askari. 2020. “Dataset of Standard Tests of Nafion 112 Membrane and Membrane Electrode Assembly (MEA) Activation Tests of Proton Exchange Membrane (PEM) Fuel Cell”. ChemRxiv. doi:10.26434/chemrxiv.11902023.
+S. Hamidi, S. Haghighi, K. Askari, Dataset of Standard Tests of Nafion 112 Membrane and Membrane Electrode Assembly (MEA) Activation Tests of Proton Exchange Membrane (PEM) Fuel Cell, ChemRxiv, (2020). doi:10.26434/chemrxiv.11902023.
 </pre>
 <pre>
 
