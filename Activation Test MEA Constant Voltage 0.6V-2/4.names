@@ -33,6 +33,7 @@ P= 25psig: flow H2/O2 or air= 500/500
 
 
 DATA DESCRIPTION:
+*All numeric-valued
 Column 1: I (mA/cm²) (Current density)
 Column 2: E_Stack (V) (Voltage)
 Column 3: Power (mW/cm²)
