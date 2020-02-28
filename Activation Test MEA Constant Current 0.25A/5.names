@@ -21,7 +21,7 @@ Ta/ Tc/ Tcell : 60 /50/ 55 C, P= 5 psig, Flow rate H2/O2: 200/200 ml/min
 ACTIVATION PROCEDURE:
 1) 10 min OCV
 2) 30 min at constant voltage 0.6V
-3) Constant current 0.25Acm-2 (repeat for 17 time)
+3) Constant current 0.25Acm-2 (repeat for 18 time)
 
 OPERATION CONDITION AFTER ACTIVATION:
 RH 30%: Ta/ Tc/ Tcell: 80/49/75 C
