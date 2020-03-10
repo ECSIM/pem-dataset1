@@ -49,7 +49,7 @@ Column 3: Power (mW/cm²)
 Column 4: Pressure (psig)  
 Column 5: Relative humidity of the cathode (RHC%)
 Column 6: Membrane compression (%)
-Column 7: Nafion Percent (%)
+Column 7: Nafion percent (%)
 
 Membrane compression 5%:
 RHC 30%
@@ -119,7 +119,7 @@ P(psi)  N(%)  MPD(mW/cm2)    i(mA/cm2) at 0.8V  i(mA/cm2) at 0.5V  i(mA/cm2) at 
 Total NOI : 651
 
 P: Pressure
-N: Nafion Percent
+N: Nafion percent
 MPD: Maximum power density
 i at 0.8V: Current density at 0.8V
 i at 0.5V: Current density at 0.5V
