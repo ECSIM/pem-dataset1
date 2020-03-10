@@ -36,8 +36,8 @@ P= 25psig: flow H2/O2 or air= 500/500 ml/min
 
 DATA DESCRIPTION:
 *All numeric-valued
-Column 1: I (mA/cm²) (Current density)
-Column 2: E_Stack (V) (Voltage)
+Column 1: Current density (mA/cm²)
+Column 2: Cell voltage (V)
 Column 3: Power (mW/cm²)
 Column 4: Activation set 
 
