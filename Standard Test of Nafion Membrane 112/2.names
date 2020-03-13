@@ -43,8 +43,8 @@ Constant C at 250 mA/cm2 (60 min)
 DATA DESCRIPTION:
 *All numeric-valued
 Effect of Relative Humidity of the Cathode in percent (RHC%) on cell performance at various compression of membrane at various pressure
-Column 1: I (mA/cm²) (Current Density)
-Column 2: E_Stack (V) (Voltage)
+Column 1: Current density (mA/cm²)
+Column 2: Cell voltage (V)
 Column 3: Power (mW/cm²)
 Column 4: Pressure (psig) 
 Column 5: Relative humidity of the cathode (RHC%) 

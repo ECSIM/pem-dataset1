@@ -47,9 +47,9 @@
 ### 1- Membrane Compression 5% & 12% : Various Nafion Percent, Various RHC			
 
 ```
-Column 1: I (mA/cm²) (Current density)
+Column 1: Current density (mA/cm²)
 
-Column 2: E_Stack (V) (Voltage)
+Column 2: Cell voltage (V)
 
 Column 3: Power (mW/cm²)
 
@@ -72,9 +72,9 @@ Column 7: Nafion percent (%)
 
 
 ```
-Column 1: I (mA/cm²) (Current density)
+Column 1: Current density (mA/cm²)
 
-Column 2: E_Stack (V) (Voltage)
+Column 2: Cell voltage (V)
 
 Column 3: Power (mW/cm²)
 

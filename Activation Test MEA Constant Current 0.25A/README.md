@@ -92,9 +92,9 @@ Column 5: Relative humidity (RH%)
 ### 4- Polarization : End of Activation Procedure (1)
 
 ```
-Column 1: I (mA/cm²) (Current density)
+Column 1: Current density (mA/cm²)
 
-Column 2: E_Stack (V) (Voltage)
+Column 2: Cell voltage (V)
 
 Column 3: Power (mW/cm²)
 
@@ -112,9 +112,9 @@ Column 5: Relative humidity (RH%)
 ### 5- Polarization : End of Activation Procedure (2)
 
 ```
-Column 1: I (mA/cm²) (Current density)
+Column 1: Current density (mA/cm²)
 
-Column 2: E_Stack (V) (Voltage)
+Column 2: Cell voltage (V)
 
 Column 3: Power (mW/cm²)
 
@@ -130,9 +130,9 @@ Column 5: Relative humidity (RH%)
 ### 6- Polarization : End of Each Activation Set
 
 ```
-Column 1: I (mA/cm²) (Current density)
+Column 1: Current density (mA/cm²)
 
-Column 2: E_Stack (V) (Voltage)
+Column 2: Cell voltage (V)
 
 Column 3: Power (mW/cm²)
 
