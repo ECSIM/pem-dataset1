@@ -1,3 +1,4 @@
+current_density,cell_voltage,power_density,pressure,relative_humidity,membrane_compression
 1450,0.251,364,5,30,5
 1360,0.301,410,5,30,5
 1260,0.351,441,5,30,5
