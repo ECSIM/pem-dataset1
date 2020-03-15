@@ -35,7 +35,7 @@ DATA DESCRIPTION:
 *All numeric-valued
 Column 1: Current density (mA/cm²)
 Column 2: Cell voltage (V)
-Column 3: Power (mW/cm²)
+Column 3: Power density (mW/cm²)
 Column 4: Activation set 
 
         OCV(mV)   MPD(mW/cm2)   R(mΩ)   NOI
