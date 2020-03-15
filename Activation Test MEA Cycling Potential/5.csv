@@ -1,3 +1,4 @@
+current_density,cell_voltage,power_density,pressure,relative_humidity
 36.6,0.948,34.7,5,30
 58.2,0.889,51.7,5,30
 74.5,0.839,62.5,5,30
