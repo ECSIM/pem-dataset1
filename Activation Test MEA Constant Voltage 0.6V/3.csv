@@ -1,3 +1,4 @@
+z_real,z_img,applied_voltage,pressure,relative_humidity
 0.0415,0.00642,0.3,5,30
 0.0434,0.00204,0.3,5,30
 0.0466,0.00168,0.3,5,30
