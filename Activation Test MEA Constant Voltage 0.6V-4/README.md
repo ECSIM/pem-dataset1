@@ -91,7 +91,7 @@ Column 1: Current density (mA/cm²)
 
 Column 2: Cell voltage (V)
 
-Column 3: Power (mW/cm²)
+Column 3: Power density (mW/cm²)
 
 Column 4: Pressure (psig)
 
@@ -111,7 +111,7 @@ Column 1: Current density (mA/cm²)
 
 Column 2: Cell voltage (V)
 
-Column 3: Power (mW/cm²)
+Column 3: Power density (mW/cm²)
 
 Column 4: Pressure (psig)
 
@@ -129,7 +129,7 @@ Column 1: Current density (mA/cm²)
 
 Column 2: Cell voltage (V)
 
-Column 3: Power (mW/cm²)
+Column 3: Power density (mW/cm²)
 
 Column 4: Activation set 
 ```
