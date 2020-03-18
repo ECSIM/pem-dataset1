@@ -1,3 +1,4 @@
+current_density,cell_voltage,power_density,pressure,relative_humidity,membrane_compression,nafion_percent
 846,0.23,195,5,30,5,25
 791,0.28,222,5,30,5,25
 731,0.33,241,5,30,5,25

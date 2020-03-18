@@ -36,7 +36,8 @@ def load_data(path, set_flag=False):
     file = open(path, "r")
     data = []
     set_list = []
-    for line in file:
+    lines = file.readlines()[1:]
+    for line in lines:
         splitted_line = line.split(",")
         if not set_flag:
             data.append(list(map(float, splitted_line)))
