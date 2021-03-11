@@ -15,7 +15,6 @@
 	<tr>
 		<td align="center">CI</td>
 		<td align="center"><img src="https://github.com/ECSIM/pem-dataset1/workflows/CI/badge.svg?branch=master"></td>
-		<td align="center"><img src="https://github.com/ECSIM/pem-dataset1/workflows/CI/badge.svg?branch=dev"></td>
 	</tr>
 </table>
 
