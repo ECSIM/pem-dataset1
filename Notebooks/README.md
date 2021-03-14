@@ -13,14 +13,9 @@
 
 <table style="border-collapse: collapse;">
 	<tr>
-		<td align="center"><b>Branch</b></td>
-		<td align="center"><b>Travis</b></td>
-		<td align="center"><b>Appveyor</b></td>
+		<td align="center">CI</td>
+		<td align="center"><img src="https://github.com/ECSIM/pem-dataset1/workflows/CI/badge.svg?branch=master"></td>
 	</tr>
-	<tr>
-		<td align="center"><b>master</b></td>
-		<td align="center"><a href="https://travis-ci.org/ECSIM/pem-dataset1"><img src="https://travis-ci.org/ECSIM/pem-dataset1.svg?branch=master"></a></td>
-		<td align="center"><a href="https://ci.appveyor.com/project/sepandhaghighi/pem-dataset1"><img src="https://ci.appveyor.com/api/projects/status/r87jdt0hm1i9rf9f?svg=true"></a></td>
 </table>
 
 ## Interactive Notebooks	
