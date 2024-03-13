@@ -39,7 +39,7 @@ We have provided some **Jupyter Notebooks** to visualize the data, visit [here](
 ## Issues & Bug Reports			
 
 Just fill an issue and describe it. We'll check it ASAP!							
-or send an email to [data@ecsim.ir](mailto:data@ecsim.ir "data@ecsim.ir"). 
+or send an email to [data@ecsim.site](mailto:data@ecsim.site "data@ecsim.site"). 
 
 You can also join our discord server			
 
@@ -84,4 +84,4 @@ Give a ⭐️ if this project helped you!
 
 If you do like our project and we hope that you do, can you please support us? Our project is not and is never going to be working for profit. We need the money just so we can continue doing what we do ;-) .
 
-<a href="https://www.ecsim.ir/opem/donate.html" target="_blank"><img src="http://www.ecsim.ir/images/Donate-Button.png" height="90px" width="270px" alt="ECSIM Donation"></a>
+<a href="https://www.ecsim.site/opem/donate.html" target="_blank"><img src="http://www.ecsim.site/images/Donate-Button.png" height="90px" width="270px" alt="ECSIM Donation"></a>
