@@ -1,5 +1,7 @@
 # Proton Exchange Membrane (PEM) Fuel Cell Dataset
 
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ECSIM/pem-dataset1?style=for-the-badge">
+
 ## Overview
 
 This dataset are about Nafion 112 membrane standard tests and MEA activation
