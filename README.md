@@ -1,5 +1,7 @@
 # Proton Exchange Membrane (PEM) Fuel Cell Dataset
 
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ECSIM/pem-dataset1?style=for-the-badge">
+
 ## Overview
 
 This dataset are about Nafion 112 membrane standard tests and MEA activation
@@ -49,13 +51,11 @@ You can also join our discord server
 
 ## Cite
 
-If you use this dataset in your research, we would appreciate citations to the following paper :
+If you use this dataset in your research, we would appreciate citations to the following paper:
 
-<pre>
-S. Hamidi, S. Haghighi, K. Askari, Dataset of Standard Tests of Nafion 112 Membrane and Membrane Electrode Assembly (MEA) Activation Tests of Proton Exchange Membrane (PEM) Fuel Cell, ChemRxiv, (2020). doi:10.26434/chemrxiv.11902023.
-</pre>
-<pre>
+[Hamidi S, Haghighi S, Askari K. Dataset of Standard Tests of Nafion 112 Membrane and Membrane Electrode Assembly (MEA) Activation Tests of Proton Exchange Membrane (PEM) Fuel Cell. ChemRxiv. 2020; doi:10.26434/chemrxiv.11902023](https://chemrxiv.org/engage/chemrxiv/article-details/60c748624c8919b500ad2ef3)
 
+```bibtex
 @article{Hamidi2020,
   doi = {10.26434/chemrxiv.11902023},
   url = {https://doi.org/10.26434/chemrxiv.11902023},
@@ -65,9 +65,7 @@ S. Hamidi, S. Haghighi, K. Askari, Dataset of Standard Tests of Nafion 112 Membr
   author = {Sarmin Hamidi and Sepand Haghighi and Kasra Askari},
   title = {Dataset of Standard Tests of Nafion 112 Membrane and Membrane Electrode Assembly ({MEA}) Activation Tests of Proton Exchange Membrane ({PEM}) Fuel Cell}
 }
-
-
-</pre>
+```
 
 ## License
 
